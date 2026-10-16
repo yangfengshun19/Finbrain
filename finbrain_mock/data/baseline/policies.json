@@ -1,0 +1,372 @@
+{
+  "P_CF_ALL": {
+    "id": "P_CF_ALL",
+    "source": "confluence",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "space_readers": [
+      "group:employees"
+    ],
+    "page_restriction_chain": []
+  },
+  "P_CF_PAY": {
+    "id": "P_CF_PAY",
+    "source": "confluence",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "space_readers": [
+      "group:engineering"
+    ],
+    "page_restriction_chain": [
+      [
+        "team:payments",
+        "team:sre",
+        "group:incident"
+      ]
+    ]
+  },
+  "P_CF_INCIDENT": {
+    "id": "P_CF_INCIDENT",
+    "source": "confluence",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "space_readers": [
+      "group:engineering"
+    ],
+    "page_restriction_chain": [
+      [
+        "group:incident"
+      ]
+    ]
+  },
+  "P_CF_SECURITY": {
+    "id": "P_CF_SECURITY",
+    "source": "confluence",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "space_readers": [
+      "group:engineering"
+    ],
+    "page_restriction_chain": [
+      [
+        "team:security"
+      ],
+      [
+        "group:investigation"
+      ]
+    ]
+  },
+  "P_CF_SECURITY_GENERAL": {
+    "id": "P_CF_SECURITY_GENERAL",
+    "source": "confluence",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "space_readers": [
+      "group:engineering"
+    ],
+    "page_restriction_chain": [
+      [
+        "team:security"
+      ]
+    ]
+  },
+  "P_CF_VENDOR": {
+    "id": "P_CF_VENDOR",
+    "source": "confluence",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "space_readers": [
+      "group:employees",
+      "team:vendor_a"
+    ],
+    "page_restriction_chain": []
+  },
+  "P_CF_SETTLEMENT": {
+    "id": "P_CF_SETTLEMENT",
+    "source": "confluence",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "space_readers": [
+      "group:engineering"
+    ],
+    "page_restriction_chain": [
+      [
+        "team:settlement"
+      ]
+    ]
+  },
+  "P_CF_ENTERPRISE": {
+    "id": "P_CF_ENTERPRISE",
+    "source": "confluence",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "space_readers": [
+      "group:employees"
+    ],
+    "page_restriction_chain": [
+      [
+        "team:enterprise_support"
+      ]
+    ]
+  },
+  "P_CF_MERCHANT": {
+    "id": "P_CF_MERCHANT",
+    "source": "confluence",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "space_readers": [
+      "group:employees"
+    ],
+    "page_restriction_chain": [
+      [
+        "team:merchant_support"
+      ]
+    ]
+  },
+  "P_JIRA_PAY": {
+    "id": "P_JIRA_PAY",
+    "source": "jira",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "project_browse": [
+      "project:payments",
+      "group:incident"
+    ],
+    "issue_security_readers": null
+  },
+  "P_JIRA_INCIDENT": {
+    "id": "P_JIRA_INCIDENT",
+    "source": "jira",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "project_browse": [
+      "project:payments",
+      "group:incident"
+    ],
+    "issue_security_readers": [
+      "group:incident"
+    ]
+  },
+  "P_JIRA_SEC": {
+    "id": "P_JIRA_SEC",
+    "source": "jira",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "project_browse": [
+      "project:security"
+    ],
+    "issue_security_readers": [
+      "group:investigation"
+    ]
+  },
+  "P_JIRA_RETRY": {
+    "id": "P_JIRA_RETRY",
+    "source": "jira",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "project_browse": [
+      "project:retry_fix",
+      "team:payments",
+      "group:incident"
+    ],
+    "issue_security_readers": null
+  },
+  "P_JIRA_INVOICE": {
+    "id": "P_JIRA_INVOICE",
+    "source": "jira",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "project_browse": [
+      "project:invoice_ui",
+      "team:settlement"
+    ],
+    "issue_security_readers": null
+  },
+  "P_JIRA_SETTLEMENT": {
+    "id": "P_JIRA_SETTLEMENT",
+    "source": "jira",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "project_browse": [
+      "project:settlement"
+    ],
+    "issue_security_readers": null
+  },
+  "P_JIRA_SUPPORT": {
+    "id": "P_JIRA_SUPPORT",
+    "source": "jira",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "project_browse": [
+      "team:enterprise_support",
+      "team:merchant_support"
+    ],
+    "issue_security_readers": null
+  },
+  "P_SL_PAYMENTS": {
+    "id": "P_SL_PAYMENTS",
+    "source": "slack",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "channel_membership_id": "channel:payments"
+  },
+  "P_SL_INCIDENT": {
+    "id": "P_SL_INCIDENT",
+    "source": "slack",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "channel_membership_id": "channel:incident"
+  },
+  "P_SL_SETTLEMENT": {
+    "id": "P_SL_SETTLEMENT",
+    "source": "slack",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "channel_membership_id": "channel:settlement"
+  },
+  "P_SL_SRE": {
+    "id": "P_SL_SRE",
+    "source": "slack",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "channel_membership_id": "channel:sre"
+  },
+  "P_SL_SECURITY_GENERAL": {
+    "id": "P_SL_SECURITY_GENERAL",
+    "source": "slack",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "channel_membership_id": "channel:security_general"
+  },
+  "P_SL_INVESTIGATION": {
+    "id": "P_SL_INVESTIGATION",
+    "source": "slack",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "channel_membership_id": "channel:investigation"
+  },
+  "P_SL_VENDOR": {
+    "id": "P_SL_VENDOR",
+    "source": "slack",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "channel_membership_id": "channel:vendor"
+  },
+  "P_SL_ENTERPRISE": {
+    "id": "P_SL_ENTERPRISE",
+    "source": "slack",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "channel_membership_id": "channel:enterprise"
+  },
+  "P_SL_MERCHANT": {
+    "id": "P_SL_MERCHANT",
+    "source": "slack",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "channel_membership_id": "channel:merchant"
+  },
+  "P_GD_ALL": {
+    "id": "P_GD_ALL",
+    "source": "gdrive",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "inherited_readers": [
+      "group:employees"
+    ],
+    "direct_readers": [],
+    "external_sharing": false
+  },
+  "P_GD_PAY": {
+    "id": "P_GD_PAY",
+    "source": "gdrive",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "inherited_readers": [
+      "team:payments",
+      "team:sre",
+      "group:incident"
+    ],
+    "direct_readers": [],
+    "external_sharing": false
+  },
+  "P_GD_INCIDENT": {
+    "id": "P_GD_INCIDENT",
+    "source": "gdrive",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "inherited_readers": [
+      "group:incident"
+    ],
+    "direct_readers": [],
+    "external_sharing": false
+  },
+  "P_GD_SEC": {
+    "id": "P_GD_SEC",
+    "source": "gdrive",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "inherited_readers": [
+      "group:investigation"
+    ],
+    "direct_readers": [],
+    "external_sharing": false
+  },
+  "P_GD_VENDOR_A": {
+    "id": "P_GD_VENDOR_A",
+    "source": "gdrive",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "inherited_readers": [],
+    "direct_readers": [
+      "user:U13",
+      "team:payments"
+    ],
+    "external_sharing": true
+  },
+  "P_GD_VENDOR_B": {
+    "id": "P_GD_VENDOR_B",
+    "source": "gdrive",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "inherited_readers": [],
+    "direct_readers": [
+      "user:U14",
+      "team:settlement"
+    ],
+    "external_sharing": true
+  },
+  "P_GD_ENTERPRISE": {
+    "id": "P_GD_ENTERPRISE",
+    "source": "gdrive",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "inherited_readers": [
+      "team:enterprise_support"
+    ],
+    "direct_readers": [],
+    "external_sharing": false
+  },
+  "P_GD_MERCHANT": {
+    "id": "P_GD_MERCHANT",
+    "source": "gdrive",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "inherited_readers": [
+      "team:merchant_support"
+    ],
+    "direct_readers": [],
+    "external_sharing": false
+  },
+  "P_GD_SETTLEMENT": {
+    "id": "P_GD_SETTLEMENT",
+    "source": "gdrive",
+    "version": 1,
+    "updated_at": "2026-09-21T01:00:00Z",
+    "inherited_readers": [
+      "team:settlement"
+    ],
+    "direct_readers": [],
+    "external_sharing": false
+  }
+}

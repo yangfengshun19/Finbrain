@@ -1,0 +1,28 @@
+{
+  "kind": "acceptance_targets_not_measured_sync_results",
+  "maximum_content_delay_seconds": 60,
+  "authorization": "Every query checks current source permissions; never use stale index ACLs.",
+  "cases": [
+    {
+      "event_id": "EVT_T05",
+      "resource_id": "CF01",
+      "source_updated_at": "2026-09-22T02:00:00Z",
+      "must_be_visible_by": "2026-09-22T02:01:00Z",
+      "expected_version": 2
+    },
+    {
+      "event_id": "EVT_T10",
+      "resource_id": "JR15",
+      "source_updated_at": "2026-09-22T08:00:00Z",
+      "must_be_visible_by": "2026-09-22T08:01:00Z",
+      "expected_version": 2
+    },
+    {
+      "event_id": "EVT_T13",
+      "resource_id": "GD10",
+      "source_updated_at": "2026-09-24T01:00:00Z",
+      "must_be_removed_by": "2026-09-24T01:01:00Z",
+      "deleted": true
+    }
+  ]
+}

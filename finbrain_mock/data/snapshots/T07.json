@@ -1,0 +1,2674 @@
+{
+  "as_of": "2026-09-22T03:00:00Z",
+  "users": {
+    "U01": {
+      "id": "U01",
+      "name": "Alice",
+      "job_title": "Backend Engineer",
+      "tenant_id": "harborpay",
+      "employment_type": "employee",
+      "source_identities": {
+        "confluence": "confluence_alice",
+        "jira": "jira_alice",
+        "slack": "slack_alice",
+        "gdrive": "gdrive_alice"
+      }
+    },
+    "U02": {
+      "id": "U02",
+      "name": "Ben",
+      "job_title": "Backend Engineer",
+      "tenant_id": "harborpay",
+      "employment_type": "employee",
+      "source_identities": {
+        "confluence": "confluence_ben",
+        "jira": "jira_ben",
+        "slack": "slack_ben",
+        "gdrive": "gdrive_ben"
+      }
+    },
+    "U03": {
+      "id": "U03",
+      "name": "Chloe",
+      "job_title": "Backend Engineer",
+      "tenant_id": "harborpay",
+      "employment_type": "employee",
+      "source_identities": {
+        "confluence": "confluence_chloe",
+        "jira": "jira_chloe",
+        "slack": "slack_chloe",
+        "gdrive": "gdrive_chloe"
+      }
+    },
+    "U04": {
+      "id": "U04",
+      "name": "Daniel",
+      "job_title": "Backend Engineer",
+      "tenant_id": "harborpay",
+      "employment_type": "employee",
+      "source_identities": {
+        "confluence": "confluence_daniel",
+        "jira": "jira_daniel",
+        "slack": "slack_daniel",
+        "gdrive": "gdrive_daniel"
+      }
+    },
+    "U05": {
+      "id": "U05",
+      "name": "Eva",
+      "job_title": "SRE Engineer",
+      "tenant_id": "harborpay",
+      "employment_type": "employee",
+      "source_identities": {
+        "confluence": "confluence_eva",
+        "jira": "jira_eva",
+        "slack": "slack_eva",
+        "gdrive": "gdrive_eva"
+      }
+    },
+    "U06": {
+      "id": "U06",
+      "name": "Felix",
+      "job_title": "SRE Engineer",
+      "tenant_id": "harborpay",
+      "employment_type": "employee",
+      "source_identities": {
+        "confluence": "confluence_felix",
+        "jira": "jira_felix",
+        "slack": "slack_felix",
+        "gdrive": "gdrive_felix"
+      }
+    },
+    "U07": {
+      "id": "U07",
+      "name": "Grace",
+      "job_title": "Security Engineer",
+      "tenant_id": "harborpay",
+      "employment_type": "employee",
+      "source_identities": {
+        "confluence": "confluence_grace",
+        "jira": "jira_grace",
+        "slack": "slack_grace",
+        "gdrive": "gdrive_grace"
+      }
+    },
+    "U08": {
+      "id": "U08",
+      "name": "Henry",
+      "job_title": "Security Engineer",
+      "tenant_id": "harborpay",
+      "employment_type": "employee",
+      "source_identities": {
+        "confluence": "confluence_henry",
+        "jira": "jira_henry",
+        "slack": "slack_henry",
+        "gdrive": "gdrive_henry"
+      }
+    },
+    "U09": {
+      "id": "U09",
+      "name": "Iris",
+      "job_title": "Customer Operations Specialist",
+      "tenant_id": "harborpay",
+      "employment_type": "employee",
+      "source_identities": {
+        "confluence": "confluence_iris",
+        "jira": "jira_iris",
+        "slack": "slack_iris",
+        "gdrive": "gdrive_iris"
+      }
+    },
+    "U10": {
+      "id": "U10",
+      "name": "Jack",
+      "job_title": "Customer Operations Specialist",
+      "tenant_id": "harborpay",
+      "employment_type": "employee",
+      "source_identities": {
+        "confluence": "confluence_jack",
+        "jira": "jira_jack",
+        "slack": "slack_jack",
+        "gdrive": "gdrive_jack"
+      }
+    },
+    "U11": {
+      "id": "U11",
+      "name": "Karen",
+      "job_title": "Compliance Auditor",
+      "tenant_id": "harborpay",
+      "employment_type": "employee",
+      "source_identities": {
+        "confluence": "confluence_karen",
+        "jira": "jira_karen",
+        "slack": "slack_karen",
+        "gdrive": "gdrive_karen"
+      }
+    },
+    "U12": {
+      "id": "U12",
+      "name": "Leo",
+      "job_title": "Compliance Auditor",
+      "tenant_id": "harborpay",
+      "employment_type": "employee",
+      "source_identities": {
+        "confluence": "confluence_leo",
+        "jira": "jira_leo",
+        "slack": "slack_leo",
+        "gdrive": "gdrive_leo"
+      }
+    },
+    "U13": {
+      "id": "U13",
+      "name": "Maya",
+      "job_title": "Backend Engineer",
+      "tenant_id": "harborpay",
+      "employment_type": "contractor",
+      "source_identities": {
+        "confluence": "confluence_maya",
+        "jira": "jira_maya",
+        "slack": "slack_maya",
+        "gdrive": "gdrive_maya"
+      }
+    },
+    "U14": {
+      "id": "U14",
+      "name": "Noah",
+      "job_title": "Backend Engineer",
+      "tenant_id": "harborpay",
+      "employment_type": "contractor",
+      "source_identities": {
+        "confluence": "confluence_noah",
+        "jira": "jira_noah",
+        "slack": "slack_noah",
+        "gdrive": "gdrive_noah"
+      }
+    }
+  },
+  "accounts": {
+    "U01": {
+      "user_id": "U01",
+      "active": true
+    },
+    "U02": {
+      "user_id": "U02",
+      "active": true
+    },
+    "U03": {
+      "user_id": "U03",
+      "active": true
+    },
+    "U04": {
+      "user_id": "U04",
+      "active": true
+    },
+    "U05": {
+      "user_id": "U05",
+      "active": true
+    },
+    "U06": {
+      "user_id": "U06",
+      "active": true
+    },
+    "U07": {
+      "user_id": "U07",
+      "active": true
+    },
+    "U08": {
+      "user_id": "U08",
+      "active": true
+    },
+    "U09": {
+      "user_id": "U09",
+      "active": true
+    },
+    "U10": {
+      "user_id": "U10",
+      "active": true
+    },
+    "U11": {
+      "user_id": "U11",
+      "active": true
+    },
+    "U12": {
+      "user_id": "U12",
+      "active": true
+    },
+    "U13": {
+      "user_id": "U13",
+      "active": true
+    },
+    "U14": {
+      "user_id": "U14",
+      "active": true
+    }
+  },
+  "groups": {
+    "audit:PAY-042": {
+      "id": "audit:PAY-042",
+      "kind": "audit"
+    },
+    "channel:enterprise": {
+      "id": "channel:enterprise",
+      "kind": "channel"
+    },
+    "channel:incident": {
+      "id": "channel:incident",
+      "kind": "channel"
+    },
+    "channel:investigation": {
+      "id": "channel:investigation",
+      "kind": "channel"
+    },
+    "channel:merchant": {
+      "id": "channel:merchant",
+      "kind": "channel"
+    },
+    "channel:payments": {
+      "id": "channel:payments",
+      "kind": "channel"
+    },
+    "channel:security_general": {
+      "id": "channel:security_general",
+      "kind": "channel"
+    },
+    "channel:settlement": {
+      "id": "channel:settlement",
+      "kind": "channel"
+    },
+    "channel:sre": {
+      "id": "channel:sre",
+      "kind": "channel"
+    },
+    "channel:vendor": {
+      "id": "channel:vendor",
+      "kind": "channel"
+    },
+    "group:employees": {
+      "id": "group:employees",
+      "kind": "group"
+    },
+    "group:engineering": {
+      "id": "group:engineering",
+      "kind": "group"
+    },
+    "group:incident": {
+      "id": "group:incident",
+      "kind": "group"
+    },
+    "group:investigation": {
+      "id": "group:investigation",
+      "kind": "group"
+    },
+    "project:invoice_ui": {
+      "id": "project:invoice_ui",
+      "kind": "project"
+    },
+    "project:payments": {
+      "id": "project:payments",
+      "kind": "project"
+    },
+    "project:retry_fix": {
+      "id": "project:retry_fix",
+      "kind": "project"
+    },
+    "project:security": {
+      "id": "project:security",
+      "kind": "project"
+    },
+    "project:settlement": {
+      "id": "project:settlement",
+      "kind": "project"
+    },
+    "role:auditor": {
+      "id": "role:auditor",
+      "kind": "role"
+    },
+    "team:compliance": {
+      "id": "team:compliance",
+      "kind": "team"
+    },
+    "team:enterprise_support": {
+      "id": "team:enterprise_support",
+      "kind": "team"
+    },
+    "team:merchant_support": {
+      "id": "team:merchant_support",
+      "kind": "team"
+    },
+    "team:payments": {
+      "id": "team:payments",
+      "kind": "team"
+    },
+    "team:security": {
+      "id": "team:security",
+      "kind": "team"
+    },
+    "team:settlement": {
+      "id": "team:settlement",
+      "kind": "team"
+    },
+    "team:sre": {
+      "id": "team:sre",
+      "kind": "team"
+    },
+    "team:vendor_a": {
+      "id": "team:vendor_a",
+      "kind": "team"
+    }
+  },
+  "memberships": [
+    {
+      "id": "U01:team:payments:EVT_T00",
+      "subject_id": "U01",
+      "relation": "member_of",
+      "target_id": "team:payments",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U01:group:employees:EVT_T00",
+      "subject_id": "U01",
+      "relation": "member_of",
+      "target_id": "group:employees",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U01:group:engineering:EVT_T00",
+      "subject_id": "U01",
+      "relation": "member_of",
+      "target_id": "group:engineering",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U01:project:payments:EVT_T00",
+      "subject_id": "U01",
+      "relation": "member_of",
+      "target_id": "project:payments",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U01:channel:payments:EVT_T00",
+      "subject_id": "U01",
+      "relation": "member_of",
+      "target_id": "channel:payments",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U02:team:payments:EVT_T00",
+      "subject_id": "U02",
+      "relation": "member_of",
+      "target_id": "team:payments",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U02:group:employees:EVT_T00",
+      "subject_id": "U02",
+      "relation": "member_of",
+      "target_id": "group:employees",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U02:group:engineering:EVT_T00",
+      "subject_id": "U02",
+      "relation": "member_of",
+      "target_id": "group:engineering",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U02:project:payments:EVT_T00",
+      "subject_id": "U02",
+      "relation": "member_of",
+      "target_id": "project:payments",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U02:channel:payments:EVT_T00",
+      "subject_id": "U02",
+      "relation": "member_of",
+      "target_id": "channel:payments",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U03:team:settlement:EVT_T00",
+      "subject_id": "U03",
+      "relation": "member_of",
+      "target_id": "team:settlement",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U03:group:employees:EVT_T00",
+      "subject_id": "U03",
+      "relation": "member_of",
+      "target_id": "group:employees",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U03:group:engineering:EVT_T00",
+      "subject_id": "U03",
+      "relation": "member_of",
+      "target_id": "group:engineering",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U03:project:settlement:EVT_T00",
+      "subject_id": "U03",
+      "relation": "member_of",
+      "target_id": "project:settlement",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U03:channel:settlement:EVT_T00",
+      "subject_id": "U03",
+      "relation": "member_of",
+      "target_id": "channel:settlement",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U04:team:payments:EVT_T00",
+      "subject_id": "U04",
+      "relation": "member_of",
+      "target_id": "team:payments",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U04:group:employees:EVT_T00",
+      "subject_id": "U04",
+      "relation": "member_of",
+      "target_id": "group:employees",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U04:group:engineering:EVT_T00",
+      "subject_id": "U04",
+      "relation": "member_of",
+      "target_id": "group:engineering",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U04:project:payments:EVT_T00",
+      "subject_id": "U04",
+      "relation": "member_of",
+      "target_id": "project:payments",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U04:channel:payments:EVT_T00",
+      "subject_id": "U04",
+      "relation": "member_of",
+      "target_id": "channel:payments",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U05:team:sre:EVT_T00",
+      "subject_id": "U05",
+      "relation": "member_of",
+      "target_id": "team:sre",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U05:group:employees:EVT_T00",
+      "subject_id": "U05",
+      "relation": "member_of",
+      "target_id": "group:employees",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U05:group:engineering:EVT_T00",
+      "subject_id": "U05",
+      "relation": "member_of",
+      "target_id": "group:engineering",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U05:project:payments:EVT_T00",
+      "subject_id": "U05",
+      "relation": "member_of",
+      "target_id": "project:payments",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U05:channel:sre:EVT_T00",
+      "subject_id": "U05",
+      "relation": "member_of",
+      "target_id": "channel:sre",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U06:team:sre:EVT_T00",
+      "subject_id": "U06",
+      "relation": "member_of",
+      "target_id": "team:sre",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U06:group:employees:EVT_T00",
+      "subject_id": "U06",
+      "relation": "member_of",
+      "target_id": "group:employees",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U06:group:engineering:EVT_T00",
+      "subject_id": "U06",
+      "relation": "member_of",
+      "target_id": "group:engineering",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U06:project:payments:EVT_T00",
+      "subject_id": "U06",
+      "relation": "member_of",
+      "target_id": "project:payments",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U06:channel:sre:EVT_T00",
+      "subject_id": "U06",
+      "relation": "member_of",
+      "target_id": "channel:sre",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U07:team:security:EVT_T00",
+      "subject_id": "U07",
+      "relation": "member_of",
+      "target_id": "team:security",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U07:group:employees:EVT_T00",
+      "subject_id": "U07",
+      "relation": "member_of",
+      "target_id": "group:employees",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U07:group:engineering:EVT_T00",
+      "subject_id": "U07",
+      "relation": "member_of",
+      "target_id": "group:engineering",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U07:project:security:EVT_T00",
+      "subject_id": "U07",
+      "relation": "member_of",
+      "target_id": "project:security",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U07:channel:security_general:EVT_T00",
+      "subject_id": "U07",
+      "relation": "member_of",
+      "target_id": "channel:security_general",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U08:team:security:EVT_T00",
+      "subject_id": "U08",
+      "relation": "member_of",
+      "target_id": "team:security",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U08:group:employees:EVT_T00",
+      "subject_id": "U08",
+      "relation": "member_of",
+      "target_id": "group:employees",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U08:group:engineering:EVT_T00",
+      "subject_id": "U08",
+      "relation": "member_of",
+      "target_id": "group:engineering",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U08:project:security:EVT_T00",
+      "subject_id": "U08",
+      "relation": "member_of",
+      "target_id": "project:security",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U08:channel:security_general:EVT_T00",
+      "subject_id": "U08",
+      "relation": "member_of",
+      "target_id": "channel:security_general",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U09:team:enterprise_support:EVT_T00",
+      "subject_id": "U09",
+      "relation": "member_of",
+      "target_id": "team:enterprise_support",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U09:group:employees:EVT_T00",
+      "subject_id": "U09",
+      "relation": "member_of",
+      "target_id": "group:employees",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U10:team:merchant_support:EVT_T00",
+      "subject_id": "U10",
+      "relation": "member_of",
+      "target_id": "team:merchant_support",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U10:group:employees:EVT_T00",
+      "subject_id": "U10",
+      "relation": "member_of",
+      "target_id": "group:employees",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U11:team:compliance:EVT_T00",
+      "subject_id": "U11",
+      "relation": "member_of",
+      "target_id": "team:compliance",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U11:group:employees:EVT_T00",
+      "subject_id": "U11",
+      "relation": "member_of",
+      "target_id": "group:employees",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U11:role:auditor:EVT_T00",
+      "subject_id": "U11",
+      "relation": "member_of",
+      "target_id": "role:auditor",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U11:audit:PAY-042:EVT_T00",
+      "subject_id": "U11",
+      "relation": "member_of",
+      "target_id": "audit:PAY-042",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U12:team:compliance:EVT_T00",
+      "subject_id": "U12",
+      "relation": "member_of",
+      "target_id": "team:compliance",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U12:group:employees:EVT_T00",
+      "subject_id": "U12",
+      "relation": "member_of",
+      "target_id": "group:employees",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U12:role:auditor:EVT_T00",
+      "subject_id": "U12",
+      "relation": "member_of",
+      "target_id": "role:auditor",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U13:team:vendor_a:EVT_T00",
+      "subject_id": "U13",
+      "relation": "member_of",
+      "target_id": "team:vendor_a",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U13:channel:vendor:EVT_T00",
+      "subject_id": "U13",
+      "relation": "member_of",
+      "target_id": "channel:vendor",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U13:project:retry_fix:EVT_T00",
+      "subject_id": "U13",
+      "relation": "member_of",
+      "target_id": "project:retry_fix",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U14:team:vendor_a:EVT_T00",
+      "subject_id": "U14",
+      "relation": "member_of",
+      "target_id": "team:vendor_a",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U14:channel:vendor:EVT_T00",
+      "subject_id": "U14",
+      "relation": "member_of",
+      "target_id": "channel:vendor",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U14:project:invoice_ui:EVT_T00",
+      "subject_id": "U14",
+      "relation": "member_of",
+      "target_id": "project:invoice_ui",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U09:channel:enterprise:EVT_T00",
+      "subject_id": "U09",
+      "relation": "member_of",
+      "target_id": "channel:enterprise",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U10:channel:merchant:EVT_T00",
+      "subject_id": "U10",
+      "relation": "member_of",
+      "target_id": "channel:merchant",
+      "valid_from": "2026-09-21T01:00:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T00"
+    },
+    {
+      "id": "U01:group:incident:EVT_T02",
+      "subject_id": "U01",
+      "relation": "member_of",
+      "target_id": "group:incident",
+      "valid_from": "2026-09-22T01:10:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T02"
+    },
+    {
+      "id": "U01:channel:incident:EVT_T02",
+      "subject_id": "U01",
+      "relation": "member_of",
+      "target_id": "channel:incident",
+      "valid_from": "2026-09-22T01:10:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T02"
+    },
+    {
+      "id": "U04:group:incident:EVT_T02",
+      "subject_id": "U04",
+      "relation": "member_of",
+      "target_id": "group:incident",
+      "valid_from": "2026-09-22T01:10:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T02"
+    },
+    {
+      "id": "U04:channel:incident:EVT_T02",
+      "subject_id": "U04",
+      "relation": "member_of",
+      "target_id": "channel:incident",
+      "valid_from": "2026-09-22T01:10:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T02"
+    },
+    {
+      "id": "U05:group:incident:EVT_T02",
+      "subject_id": "U05",
+      "relation": "member_of",
+      "target_id": "group:incident",
+      "valid_from": "2026-09-22T01:10:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T02"
+    },
+    {
+      "id": "U05:channel:incident:EVT_T02",
+      "subject_id": "U05",
+      "relation": "member_of",
+      "target_id": "channel:incident",
+      "valid_from": "2026-09-22T01:10:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T02"
+    },
+    {
+      "id": "U03:group:incident:EVT_T04",
+      "subject_id": "U03",
+      "relation": "member_of",
+      "target_id": "group:incident",
+      "valid_from": "2026-09-22T01:40:00Z",
+      "valid_until": "2026-09-23T04:00:00Z",
+      "created_by_event": "EVT_T04"
+    },
+    {
+      "id": "U03:channel:incident:EVT_T04",
+      "subject_id": "U03",
+      "relation": "member_of",
+      "target_id": "channel:incident",
+      "valid_from": "2026-09-22T01:40:00Z",
+      "valid_until": "2026-09-23T04:00:00Z",
+      "created_by_event": "EVT_T04"
+    },
+    {
+      "id": "U07:group:investigation:EVT_T06",
+      "subject_id": "U07",
+      "relation": "member_of",
+      "target_id": "group:investigation",
+      "valid_from": "2026-09-22T02:15:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T06"
+    },
+    {
+      "id": "U07:channel:investigation:EVT_T06",
+      "subject_id": "U07",
+      "relation": "member_of",
+      "target_id": "channel:investigation",
+      "valid_from": "2026-09-22T02:15:00Z",
+      "valid_until": null,
+      "created_by_event": "EVT_T06"
+    }
+  ],
+  "resources": {
+    "CF01": {
+      "id": "CF01",
+      "tenant_id": "harborpay",
+      "source": "confluence",
+      "source_id": "mock_CF01",
+      "resource_type": "page",
+      "title": "Payment incident runbook",
+      "body": "v2: Check payment success rate, connection pool utilization, and the waiting queue. New step: once a pool anomaly is confirmed, the on-call SRE switches traffic using the approved procedure, observes the failure rate, and then decides whether to switch back.",
+      "source_url": "https://confluence.example.test/resources/CF01",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [
+        "CF02"
+      ],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-22T02:00:00Z",
+      "content_version": 2,
+      "deleted": false,
+      "policy_id": "P_CF_PAY",
+      "source_metadata": {
+        "space_id": "space_PAY",
+        "parent_page_id": null
+      }
+    },
+    "CF02": {
+      "id": "CF02",
+      "tenant_id": "harborpay",
+      "source": "confluence",
+      "source_id": "mock_CF02",
+      "resource_type": "page",
+      "title": "Payment gateway architecture",
+      "body": "gateway-api accesses ledger-store through a shared connection pool. Client retries may amplify connection demand; the default pool limit is 80.",
+      "source_url": "https://confluence.example.test/resources/CF02",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_CF_PAY",
+      "source_metadata": {
+        "space_id": "space_PAY",
+        "parent_page_id": null
+      }
+    },
+    "CF03": {
+      "id": "CF03",
+      "tenant_id": "harborpay",
+      "source": "confluence",
+      "source_id": "mock_CF03",
+      "resource_type": "page",
+      "title": "Incident collaboration guide",
+      "body": "Distinguish hypotheses from confirmed findings in incident threads. A merged issue does not mean deployment is complete.",
+      "source_url": "https://confluence.example.test/resources/CF03",
+      "scenario_id": "GENERAL",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_CF_ALL",
+      "source_metadata": {
+        "space_id": "space_ALL",
+        "parent_page_id": null
+      }
+    },
+    "CF04": {
+      "id": "CF04",
+      "tenant_id": "harborpay",
+      "source": "confluence",
+      "source_id": "mock_CF04",
+      "resource_type": "page",
+      "title": "Vendor collaboration scope",
+      "body": "Maya owns the RETRY-17 retry module; Noah owns the INVOICE-08 page. Do not share internal logs across projects.",
+      "source_url": "https://confluence.example.test/resources/CF04",
+      "scenario_id": "GENERAL",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_CF_VENDOR",
+      "source_metadata": {
+        "space_id": "space_VENDOR",
+        "parent_page_id": null
+      }
+    },
+    "CF05": {
+      "id": "CF05",
+      "tenant_id": "harborpay",
+      "source": "confluence",
+      "source_id": "mock_CF05",
+      "resource_type": "page",
+      "title": "Settlement batch runbook",
+      "body": "The SET-019 daily batch starts at 02:00 UTC; reconciliation failures require the batch checksum to be validated again.",
+      "source_url": "https://confluence.example.test/resources/CF05",
+      "scenario_id": "SET-019",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_CF_SETTLEMENT",
+      "source_metadata": {
+        "space_id": "space_SETTLEMENT",
+        "parent_page_id": null
+      }
+    },
+    "CF06": {
+      "id": "CF06",
+      "tenant_id": "harborpay",
+      "source": "confluence",
+      "source_id": "mock_CF06",
+      "resource_type": "page",
+      "title": "Security team working practices",
+      "body": "Special investigations require separate authorization; the Security Engineer job title does not grant access to every investigation.",
+      "source_url": "https://confluence.example.test/resources/CF06",
+      "scenario_id": "GENERAL",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_CF_SECURITY_GENERAL",
+      "source_metadata": {
+        "space_id": "space_SECURITY_GENERAL",
+        "parent_page_id": null
+      }
+    },
+    "CF07": {
+      "id": "CF07",
+      "tenant_id": "harborpay",
+      "source": "confluence",
+      "source_id": "mock_CF07",
+      "resource_type": "page",
+      "title": "Enterprise customer communications guide",
+      "body": "Share service status and the next update time with enterprise customers; do not send internal debugging information.",
+      "source_url": "https://confluence.example.test/resources/CF07",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_CF_ENTERPRISE",
+      "source_metadata": {
+        "space_id": "space_ENTERPRISE",
+        "parent_page_id": null
+      }
+    },
+    "CF08": {
+      "id": "CF08",
+      "tenant_id": "harborpay",
+      "source": "confluence",
+      "source_id": "mock_CF08",
+      "resource_type": "page",
+      "title": "Merchant support communications guide",
+      "body": "Provide merchants with recovery status and retry guidance. Do not present unconfirmed hypotheses as the incident cause.",
+      "source_url": "https://confluence.example.test/resources/CF08",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_CF_MERCHANT",
+      "source_metadata": {
+        "space_id": "space_MERCHANT",
+        "parent_page_id": null
+      }
+    },
+    "CF09": {
+      "id": "CF09",
+      "tenant_id": "harborpay",
+      "source": "confluence",
+      "source_id": "mock_CF09",
+      "resource_type": "page",
+      "title": "Office equipment request process",
+      "body": "Employees requesting a monitor must select a cost center; this administrative document is unrelated to the payment incident.",
+      "source_url": "https://confluence.example.test/resources/CF09",
+      "scenario_id": "OFFICE-003",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_CF_ALL",
+      "source_metadata": {
+        "space_id": "space_ALL",
+        "parent_page_id": null
+      }
+    },
+    "JR01": {
+      "id": "JR01",
+      "tenant_id": "harborpay",
+      "source": "jira",
+      "source_id": "mock_JR01",
+      "resource_type": "issue",
+      "title": "RETRY-17 Retry backoff changes",
+      "body": "Add exponential backoff and random jitter to the client. Owner: Maya; not yet merged.",
+      "source_url": "https://jira.example.test/resources/JR01",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_JIRA_RETRY",
+      "source_metadata": {
+        "project_id": "project_RETRY",
+        "issue_key": "RETRY-17",
+        "status": "open",
+        "assignee_id": "U13",
+        "security_level_id": null
+      }
+    },
+    "JR02": {
+      "id": "JR02",
+      "tenant_id": "harborpay",
+      "source": "jira",
+      "source_id": "mock_JR02",
+      "resource_type": "issue",
+      "title": "PAY-041 Historical payment latency",
+      "body": "A separate incident last month: certificate rotation caused brief handshake latency, now resolved. This is not the current connection pool incident.",
+      "source_url": "https://jira.example.test/resources/JR02",
+      "scenario_id": "PAY-041",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_JIRA_PAY",
+      "source_metadata": {
+        "project_id": "project_PAY",
+        "issue_key": "PAY-041",
+        "status": "open",
+        "assignee_id": "U01",
+        "security_level_id": null
+      }
+    },
+    "JR03": {
+      "id": "JR03",
+      "tenant_id": "harborpay",
+      "source": "jira",
+      "source_id": "mock_JR03",
+      "resource_type": "issue",
+      "title": "SET-019 Batch validation",
+      "body": "Chloe maintains the batch checksum task, which is separate from the real-time payment connection pool.",
+      "source_url": "https://jira.example.test/resources/JR03",
+      "scenario_id": "SET-019",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_JIRA_SETTLEMENT",
+      "source_metadata": {
+        "project_id": "project_SETTLEMENT",
+        "issue_key": "SET-019",
+        "status": "open",
+        "assignee_id": "U01",
+        "security_level_id": null
+      }
+    },
+    "JR04": {
+      "id": "JR04",
+      "tenant_id": "harborpay",
+      "source": "jira",
+      "source_id": "mock_JR04",
+      "resource_type": "issue",
+      "title": "INVOICE-08 Invoice interface",
+      "body": "Noah is fixing the button layout on the vendor invoice page; this does not concern the payment incident.",
+      "source_url": "https://jira.example.test/resources/JR04",
+      "scenario_id": "INVOICE-08",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_JIRA_INVOICE",
+      "source_metadata": {
+        "project_id": "project_INVOICE",
+        "issue_key": "INVOICE-08",
+        "status": "open",
+        "assignee_id": "U01",
+        "security_level_id": null
+      }
+    },
+    "JR05": {
+      "id": "JR05",
+      "tenant_id": "harborpay",
+      "source": "jira",
+      "source_id": "mock_JR05",
+      "resource_type": "issue",
+      "title": "PAY-038 Connection pool capacity assessment",
+      "body": "The capacity assessment found high peak connection wait times and recommended load testing. This is a risk indicator, not a confirmed incident cause.",
+      "source_url": "https://jira.example.test/resources/JR05",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_JIRA_PAY",
+      "source_metadata": {
+        "project_id": "project_PAY",
+        "issue_key": "PAY-038",
+        "status": "open",
+        "assignee_id": "U01",
+        "security_level_id": null
+      }
+    },
+    "JR06": {
+      "id": "JR06",
+      "tenant_id": "harborpay",
+      "source": "jira",
+      "source_id": "mock_JR06",
+      "resource_type": "issue",
+      "title": "PAY-039 Alert threshold adjustment",
+      "body": "Proposal: alert when the connection pool waiting queue exceeds 200 for 2 minutes. Pending review.",
+      "source_url": "https://jira.example.test/resources/JR06",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_JIRA_PAY",
+      "source_metadata": {
+        "project_id": "project_PAY",
+        "issue_key": "PAY-039",
+        "status": "open",
+        "assignee_id": "U01",
+        "security_level_id": null
+      }
+    },
+    "JR07": {
+      "id": "JR07",
+      "tenant_id": "harborpay",
+      "source": "jira",
+      "source_id": "mock_JR07",
+      "resource_type": "issue",
+      "title": "SUP-011 Enterprise customer template",
+      "body": "Prepare a service status template containing only confirmed facts; do not disclose internal investigations.",
+      "source_url": "https://jira.example.test/resources/JR07",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_JIRA_SUPPORT",
+      "source_metadata": {
+        "project_id": "project_SUPPORT",
+        "issue_key": "SUP-011",
+        "status": "open",
+        "assignee_id": "U01",
+        "security_level_id": null
+      }
+    },
+    "JR08": {
+      "id": "JR08",
+      "tenant_id": "harborpay",
+      "source": "jira",
+      "source_id": "mock_JR08",
+      "resource_type": "issue",
+      "title": "SUP-012 Merchant retry guidance",
+      "body": "Draft guidance: use backoff retries after recovery and avoid repeated submissions in rapid succession.",
+      "source_url": "https://jira.example.test/resources/JR08",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_JIRA_SUPPORT",
+      "source_metadata": {
+        "project_id": "project_SUPPORT",
+        "issue_key": "SUP-012",
+        "status": "open",
+        "assignee_id": "U01",
+        "security_level_id": null
+      }
+    },
+    "JR09": {
+      "id": "JR09",
+      "tenant_id": "harborpay",
+      "source": "jira",
+      "source_id": "mock_JR09",
+      "resource_type": "issue",
+      "title": "SET-020 Reconciliation task",
+      "body": "Prepare a settlement batch rerun exercise. Owner: Chloe.",
+      "source_url": "https://jira.example.test/resources/JR09",
+      "scenario_id": "SET-019",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_JIRA_SETTLEMENT",
+      "source_metadata": {
+        "project_id": "project_SETTLEMENT",
+        "issue_key": "SET-020",
+        "status": "open",
+        "assignee_id": "U01",
+        "security_level_id": null
+      }
+    },
+    "JR10": {
+      "id": "JR10",
+      "tenant_id": "harborpay",
+      "source": "jira",
+      "source_id": "mock_JR10",
+      "resource_type": "issue",
+      "title": "PAY-040 Load test plan",
+      "body": "The load test will examine the waiting queue at 1,200 simulated requests per second. No results are available yet.",
+      "source_url": "https://jira.example.test/resources/JR10",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_JIRA_PAY",
+      "source_metadata": {
+        "project_id": "project_PAY",
+        "issue_key": "PAY-040",
+        "status": "open",
+        "assignee_id": "U01",
+        "security_level_id": null
+      }
+    },
+    "JR11": {
+      "id": "JR11",
+      "tenant_id": "harborpay",
+      "source": "jira",
+      "source_id": "mock_JR11",
+      "resource_type": "issue",
+      "title": "RETRY-18 Unit tests",
+      "body": "Validate retry limits, backoff intervals, and idempotent request IDs; Maya has access.",
+      "source_url": "https://jira.example.test/resources/JR11",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_JIRA_RETRY",
+      "source_metadata": {
+        "project_id": "project_RETRY",
+        "issue_key": "RETRY-18",
+        "status": "open",
+        "assignee_id": "U13",
+        "security_level_id": null
+      }
+    },
+    "JR12": {
+      "id": "JR12",
+      "tenant_id": "harborpay",
+      "source": "jira",
+      "source_id": "mock_JR12",
+      "resource_type": "issue",
+      "title": "INVOICE-09 Page accessibility",
+      "body": "Noah is checking keyboard focus order on the invoice page.",
+      "source_url": "https://jira.example.test/resources/JR12",
+      "scenario_id": "INVOICE-08",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_JIRA_INVOICE",
+      "source_metadata": {
+        "project_id": "project_INVOICE",
+        "issue_key": "INVOICE-09",
+        "status": "open",
+        "assignee_id": "U01",
+        "security_level_id": null
+      }
+    },
+    "SL01": {
+      "id": "SL01",
+      "tenant_id": "harborpay",
+      "source": "slack",
+      "source_id": "mock_SL01",
+      "resource_type": "message",
+      "title": "Payments team capacity discussion",
+      "body": "Alice: We need to monitor peak connection pool wait times this week. No incident has been confirmed yet.",
+      "source_url": "https://slack.example.test/resources/SL01",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_SL_PAYMENTS",
+      "source_metadata": {
+        "workspace_id": "harborpay_demo",
+        "channel_id": "channel:payments",
+        "thread_id": "channel:payments_thread",
+        "author_id": "U01",
+        "message_ts": "2026-09-21T01:00:00Z"
+      }
+    },
+    "SL02": {
+      "id": "SL02",
+      "tenant_id": "harborpay",
+      "source": "slack",
+      "source_id": "mock_SL02",
+      "resource_type": "message",
+      "title": "Payments team capacity reply",
+      "body": "Ben: I will organize the load test records and add the results to the capacity assessment issue.",
+      "source_url": "https://slack.example.test/resources/SL02",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_SL_PAYMENTS",
+      "source_metadata": {
+        "workspace_id": "harborpay_demo",
+        "channel_id": "channel:payments",
+        "thread_id": "channel:payments_thread",
+        "author_id": "U02",
+        "message_ts": "2026-09-21T01:00:00Z"
+      }
+    },
+    "SL03": {
+      "id": "SL03",
+      "tenant_id": "harborpay",
+      "source": "slack",
+      "source_id": "mock_SL03",
+      "resource_type": "message",
+      "title": "Settlement batch discussion",
+      "body": "Chloe: The SET-019 validation failure has been reproduced; waiting for a test batch.",
+      "source_url": "https://slack.example.test/resources/SL03",
+      "scenario_id": "SET-019",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_SL_SETTLEMENT",
+      "source_metadata": {
+        "workspace_id": "harborpay_demo",
+        "channel_id": "channel:settlement",
+        "thread_id": "channel:settlement_thread",
+        "author_id": "U03",
+        "message_ts": "2026-09-21T01:00:00Z"
+      }
+    },
+    "SL04": {
+      "id": "SL04",
+      "tenant_id": "harborpay",
+      "source": "slack",
+      "source_id": "mock_SL04",
+      "resource_type": "message",
+      "title": "SRE on-call schedule",
+      "body": "Eva: I will take the first incident shift this week; Felix will take over. Incident-specific access will change at handover.",
+      "source_url": "https://slack.example.test/resources/SL04",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_SL_SRE",
+      "source_metadata": {
+        "workspace_id": "harborpay_demo",
+        "channel_id": "channel:sre",
+        "thread_id": "channel:sre_thread",
+        "author_id": "U05",
+        "message_ts": "2026-09-21T01:00:00Z"
+      }
+    },
+    "SL05": {
+      "id": "SL05",
+      "tenant_id": "harborpay",
+      "source": "slack",
+      "source_id": "mock_SL05",
+      "resource_type": "message",
+      "title": "Security practices discussion",
+      "body": "Henry: Approve access separately for each special investigation; do not grant access by default based on job title.",
+      "source_url": "https://slack.example.test/resources/SL05",
+      "scenario_id": "GENERAL",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_SL_SECURITY_GENERAL",
+      "source_metadata": {
+        "workspace_id": "harborpay_demo",
+        "channel_id": "channel:security_general",
+        "thread_id": "channel:security_general_thread",
+        "author_id": "U08",
+        "message_ts": "2026-09-21T01:00:00Z"
+      }
+    },
+    "SL06": {
+      "id": "SL06",
+      "tenant_id": "harborpay",
+      "source": "slack",
+      "source_id": "mock_SL06",
+      "resource_type": "message",
+      "title": "Shared vendor collaboration",
+      "body": "Maya: I own the retry module. Noah: I own the invoice interface. Please submit work to the corresponding issues.",
+      "source_url": "https://slack.example.test/resources/SL06",
+      "scenario_id": "GENERAL",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_SL_VENDOR",
+      "source_metadata": {
+        "workspace_id": "harborpay_demo",
+        "channel_id": "channel:vendor",
+        "thread_id": "channel:vendor_thread",
+        "author_id": "U13",
+        "message_ts": "2026-09-21T01:00:00Z"
+      }
+    },
+    "SL07": {
+      "id": "SL07",
+      "tenant_id": "harborpay",
+      "source": "slack",
+      "source_id": "mock_SL07",
+      "resource_type": "message",
+      "title": "Enterprise support template discussion",
+      "body": "Iris: Customer notices must state the current status and the time of the next update.",
+      "source_url": "https://slack.example.test/resources/SL07",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_SL_ENTERPRISE",
+      "source_metadata": {
+        "workspace_id": "harborpay_demo",
+        "channel_id": "channel:enterprise",
+        "thread_id": "channel:enterprise_thread",
+        "author_id": "U09",
+        "message_ts": "2026-09-21T01:00:00Z"
+      }
+    },
+    "SL08": {
+      "id": "SL08",
+      "tenant_id": "harborpay",
+      "source": "slack",
+      "source_id": "mock_SL08",
+      "resource_type": "message",
+      "title": "Merchant support template discussion",
+      "body": "Jack: Publish only confirmed recovery status to merchants.",
+      "source_url": "https://slack.example.test/resources/SL08",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_SL_MERCHANT",
+      "source_metadata": {
+        "workspace_id": "harborpay_demo",
+        "channel_id": "channel:merchant",
+        "thread_id": "channel:merchant_thread",
+        "author_id": "U10",
+        "message_ts": "2026-09-21T01:00:00Z"
+      }
+    },
+    "SL09": {
+      "id": "SL09",
+      "tenant_id": "harborpay",
+      "source": "slack",
+      "source_id": "mock_SL09",
+      "resource_type": "message",
+      "title": "Payments team historical incident reminder",
+      "body": "Ben: PAY-041 was a certificate issue; we cannot assume it explains the new incident.",
+      "source_url": "https://slack.example.test/resources/SL09",
+      "scenario_id": "PAY-041",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_SL_PAYMENTS",
+      "source_metadata": {
+        "workspace_id": "harborpay_demo",
+        "channel_id": "channel:payments",
+        "thread_id": "channel:payments_thread",
+        "author_id": "U02",
+        "message_ts": "2026-09-21T01:00:00Z"
+      }
+    },
+    "SL10": {
+      "id": "SL10",
+      "tenant_id": "harborpay",
+      "source": "slack",
+      "source_id": "mock_SL10",
+      "resource_type": "message",
+      "title": "SRE load test discussion",
+      "body": "Felix: After deployment, monitor the waiting queue and failure rate, not just whether the process is alive.",
+      "source_url": "https://slack.example.test/resources/SL10",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_SL_SRE",
+      "source_metadata": {
+        "workspace_id": "harborpay_demo",
+        "channel_id": "channel:sre",
+        "thread_id": "channel:sre_thread",
+        "author_id": "U06",
+        "message_ts": "2026-09-21T01:00:00Z"
+      }
+    },
+    "SL11": {
+      "id": "SL11",
+      "tenant_id": "harborpay",
+      "source": "slack",
+      "source_id": "mock_SL11",
+      "resource_type": "message",
+      "title": "Settlement work handover plan",
+      "body": "Chloe: Someone will join the settlement team next week. Access must take effect when the transfer actually occurs.",
+      "source_url": "https://slack.example.test/resources/SL11",
+      "scenario_id": "SET-019",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_SL_SETTLEMENT",
+      "source_metadata": {
+        "workspace_id": "harborpay_demo",
+        "channel_id": "channel:settlement",
+        "thread_id": "channel:settlement_thread",
+        "author_id": "U03",
+        "message_ts": "2026-09-21T01:00:00Z"
+      }
+    },
+    "SL12": {
+      "id": "SL12",
+      "tenant_id": "harborpay",
+      "source": "slack",
+      "source_id": "mock_SL12",
+      "resource_type": "message",
+      "title": "Security training schedule",
+      "body": "Grace: This month covers least privilege and isolation of special investigations.",
+      "source_url": "https://slack.example.test/resources/SL12",
+      "scenario_id": "GENERAL",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_SL_SECURITY_GENERAL",
+      "source_metadata": {
+        "workspace_id": "harborpay_demo",
+        "channel_id": "channel:security_general",
+        "thread_id": "channel:security_general_thread",
+        "author_id": "U07",
+        "message_ts": "2026-09-21T01:00:00Z"
+      }
+    },
+    "SL13": {
+      "id": "SL13",
+      "tenant_id": "harborpay",
+      "source": "slack",
+      "source_id": "mock_SL13",
+      "resource_type": "message",
+      "title": "Payments team office notice",
+      "body": "Alice: Friday monitor collection has moved to the second floor; this is unrelated to the outage.",
+      "source_url": "https://slack.example.test/resources/SL13",
+      "scenario_id": "OFFICE-003",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_SL_PAYMENTS",
+      "source_metadata": {
+        "workspace_id": "harborpay_demo",
+        "channel_id": "channel:payments",
+        "thread_id": "channel:payments_thread",
+        "author_id": "U01",
+        "message_ts": "2026-09-21T01:00:00Z"
+      }
+    },
+    "SL14": {
+      "id": "SL14",
+      "tenant_id": "harborpay",
+      "source": "slack",
+      "source_id": "mock_SL14",
+      "resource_type": "message",
+      "title": "Vendor meeting reminder",
+      "body": "Noah: The invoice interface review is scheduled for Thursday.",
+      "source_url": "https://slack.example.test/resources/SL14",
+      "scenario_id": "INVOICE-08",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_SL_VENDOR",
+      "source_metadata": {
+        "workspace_id": "harborpay_demo",
+        "channel_id": "channel:vendor",
+        "thread_id": "channel:vendor_thread",
+        "author_id": "U14",
+        "message_ts": "2026-09-21T01:00:00Z"
+      }
+    },
+    "GD01": {
+      "id": "GD01",
+      "tenant_id": "harborpay",
+      "source": "gdrive",
+      "source_id": "mock_GD01",
+      "resource_type": "file",
+      "title": "Payment capacity baseline",
+      "body": "Synthetic load test baseline: pool limit 80 and low-load success rate 99.9%. This does not establish performance during the incident.",
+      "source_url": "https://gdrive.example.test/resources/GD01",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_GD_PAY",
+      "source_metadata": {
+        "drive_id": "drive_demo",
+        "parent_folder_id": "folder_PAY",
+        "mime_type": "text/plain",
+        "owner_id": "U01"
+      }
+    },
+    "GD02": {
+      "id": "GD02",
+      "tenant_id": "harborpay",
+      "source": "gdrive",
+      "source_id": "mock_GD02",
+      "resource_type": "file",
+      "title": "Retry module vendor notes",
+      "body": "Maya's module covers only backoff parameters and idempotency keys; it does not include security investigation material.",
+      "source_url": "https://gdrive.example.test/resources/GD02",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_GD_VENDOR_A",
+      "source_metadata": {
+        "drive_id": "drive_demo",
+        "parent_folder_id": "folder_VENDOR_A",
+        "mime_type": "text/plain",
+        "owner_id": "U01"
+      }
+    },
+    "GD03": {
+      "id": "GD03",
+      "tenant_id": "harborpay",
+      "source": "gdrive",
+      "source_id": "mock_GD03",
+      "resource_type": "file",
+      "title": "Invoice interface vendor notes",
+      "body": "Noah's module covers only frontend layout and accessibility.",
+      "source_url": "https://gdrive.example.test/resources/GD03",
+      "scenario_id": "INVOICE-08",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_GD_VENDOR_B",
+      "source_metadata": {
+        "drive_id": "drive_demo",
+        "parent_folder_id": "folder_VENDOR_B",
+        "mime_type": "text/plain",
+        "owner_id": "U01"
+      }
+    },
+    "GD04": {
+      "id": "GD04",
+      "tenant_id": "harborpay",
+      "source": "gdrive",
+      "source_id": "mock_GD04",
+      "resource_type": "file",
+      "title": "Enterprise customer communications worksheet",
+      "body": "Iris manages a simulated enterprise customer communication schedule; there are no real customer names or accounts.",
+      "source_url": "https://gdrive.example.test/resources/GD04",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_GD_ENTERPRISE",
+      "source_metadata": {
+        "drive_id": "drive_demo",
+        "parent_folder_id": "folder_ENTERPRISE",
+        "mime_type": "text/plain",
+        "owner_id": "U01"
+      }
+    },
+    "GD05": {
+      "id": "GD05",
+      "tenant_id": "harborpay",
+      "source": "gdrive",
+      "source_id": "mock_GD05",
+      "resource_type": "file",
+      "title": "Merchant communications worksheet",
+      "body": "Jack manages a simulated merchant support communication schedule; there is no real transaction data.",
+      "source_url": "https://gdrive.example.test/resources/GD05",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_GD_MERCHANT",
+      "source_metadata": {
+        "drive_id": "drive_demo",
+        "parent_folder_id": "folder_MERCHANT",
+        "mime_type": "text/plain",
+        "owner_id": "U01"
+      }
+    },
+    "GD06": {
+      "id": "GD06",
+      "tenant_id": "harborpay",
+      "source": "gdrive",
+      "source_id": "mock_GD06",
+      "resource_type": "file",
+      "title": "Settlement exercise data",
+      "body": "The synthetic SET-019 batch contains 400 records, including 3 checksum anomalies.",
+      "source_url": "https://gdrive.example.test/resources/GD06",
+      "scenario_id": "SET-019",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_GD_SETTLEMENT",
+      "source_metadata": {
+        "drive_id": "drive_demo",
+        "parent_folder_id": "folder_SETTLEMENT",
+        "mime_type": "text/plain",
+        "owner_id": "U01"
+      }
+    },
+    "GD07": {
+      "id": "GD07",
+      "tenant_id": "harborpay",
+      "source": "gdrive",
+      "source_id": "mock_GD07",
+      "resource_type": "file",
+      "title": "Employee onboarding notes",
+      "body": "An introduction to the synthetic HarborPay organization and office processes.",
+      "source_url": "https://gdrive.example.test/resources/GD07",
+      "scenario_id": "GENERAL",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_GD_ALL",
+      "source_metadata": {
+        "drive_id": "drive_demo",
+        "parent_folder_id": "folder_ALL",
+        "mime_type": "text/plain",
+        "owner_id": "U01"
+      }
+    },
+    "GD08": {
+      "id": "GD08",
+      "tenant_id": "harborpay",
+      "source": "gdrive",
+      "source_id": "mock_GD08",
+      "resource_type": "file",
+      "title": "Office equipment inventory",
+      "body": "12 monitors and 8 docking stations; unrelated to the payment incident.",
+      "source_url": "https://gdrive.example.test/resources/GD08",
+      "scenario_id": "OFFICE-003",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_GD_ALL",
+      "source_metadata": {
+        "drive_id": "drive_demo",
+        "parent_folder_id": "folder_ALL",
+        "mime_type": "text/plain",
+        "owner_id": "U01"
+      }
+    },
+    "GD09": {
+      "id": "GD09",
+      "tenant_id": "harborpay",
+      "source": "gdrive",
+      "source_id": "mock_GD09",
+      "resource_type": "file",
+      "title": "Incident impact estimation template",
+      "body": "This template is blank and must not be cited as actual incident losses. Demonstration only; no real financial data.",
+      "source_url": "https://gdrive.example.test/resources/GD09",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-21T01:00:00Z",
+      "updated_at": "2026-09-21T01:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_GD_PAY",
+      "source_metadata": {
+        "drive_id": "drive_demo",
+        "parent_folder_id": "folder_PAY",
+        "mime_type": "text/plain",
+        "owner_id": "U01"
+      }
+    },
+    "JR13": {
+      "id": "JR13",
+      "tenant_id": "harborpay",
+      "source": "jira",
+      "source_id": "mock_JR13",
+      "resource_type": "issue",
+      "title": "PAY-042 Payment failure incident",
+      "body": "At 11:00 SGT, connection pool exhaustion and congestion amplified by excessive retries are confirmed. Vendor failure has been ruled out; fix deployment is pending.",
+      "source_url": "https://jira.example.test/resources/JR13",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [
+        "CF01"
+      ],
+      "created_at": "2026-09-22T01:05:00Z",
+      "updated_at": "2026-09-22T03:00:00Z",
+      "content_version": 2,
+      "deleted": false,
+      "policy_id": "P_JIRA_PAY",
+      "source_metadata": {
+        "project_id": "project_PAY",
+        "issue_key": "PAY-042",
+        "status": "identified",
+        "assignee_id": "U01",
+        "security_level_id": null
+      }
+    },
+    "CF10": {
+      "id": "CF10",
+      "tenant_id": "harborpay",
+      "source": "confluence",
+      "source_id": "mock_CF10",
+      "resource_type": "page",
+      "title": "PAY-042 Incident working notes",
+      "body": "Incident coordination is in place; the root cause is still under investigation. Use timestamped evidence.",
+      "source_url": "https://confluence.example.test/resources/CF10",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-22T01:10:00Z",
+      "updated_at": "2026-09-22T01:10:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_CF_INCIDENT",
+      "source_metadata": {
+        "space_id": "space_INCIDENT",
+        "parent_page_id": null
+      }
+    },
+    "SL15": {
+      "id": "SL15",
+      "tenant_id": "harborpay",
+      "source": "slack",
+      "source_id": "mock_SL15",
+      "resource_type": "message",
+      "title": "Incident channel created",
+      "body": "Eva: The PAY-042 incident channel is open. Collect metrics first without assuming a root cause.",
+      "source_url": "https://slack.example.test/resources/SL15",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-22T01:10:00Z",
+      "updated_at": "2026-09-22T01:10:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_SL_INCIDENT",
+      "source_metadata": {
+        "workspace_id": "harborpay_demo",
+        "channel_id": "channel:incident",
+        "thread_id": "thread_incident",
+        "author_id": "U05",
+        "message_ts": "2026-09-22T01:10:00Z"
+      }
+    },
+    "SL16": {
+      "id": "SL16",
+      "tenant_id": "harborpay",
+      "source": "slack",
+      "source_id": "mock_SL16",
+      "resource_type": "message",
+      "title": "Early root cause hypothesis",
+      "body": "Daniel: At 09:20 SGT, we suspect an upstream vendor issue; this is not yet verified. CANARY_INCIDENT_SL16.",
+      "source_url": "https://slack.example.test/resources/SL16",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-22T01:20:00Z",
+      "updated_at": "2026-09-22T01:20:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_SL_INCIDENT",
+      "source_metadata": {
+        "workspace_id": "harborpay_demo",
+        "channel_id": "channel:incident",
+        "thread_id": "thread_incident",
+        "author_id": "U04",
+        "message_ts": "2026-09-22T01:20:00Z"
+      }
+    },
+    "SL17": {
+      "id": "SL17",
+      "tenant_id": "harborpay",
+      "source": "slack",
+      "source_id": "mock_SL17",
+      "resource_type": "message",
+      "title": "Reply checking the early hypothesis",
+      "body": "Alice: The connection pool waiting queue is also growing. We need to compare vendor probe results before drawing a conclusion.",
+      "source_url": "https://slack.example.test/resources/SL17",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-22T01:20:00Z",
+      "updated_at": "2026-09-22T01:20:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_SL_INCIDENT",
+      "source_metadata": {
+        "workspace_id": "harborpay_demo",
+        "channel_id": "channel:incident",
+        "thread_id": "thread_incident",
+        "author_id": "U01",
+        "message_ts": "2026-09-22T01:20:00Z"
+      }
+    },
+    "GD10": {
+      "id": "GD10",
+      "tenant_id": "harborpay",
+      "source": "gdrive",
+      "source_id": "mock_GD10",
+      "resource_type": "file",
+      "title": "PAY-042 Draft postmortem",
+      "body": "Draft: a vendor issue is suspected and awaits verification. Do not treat this as a final conclusion. CANARY_DRAFT_GD10.",
+      "source_url": "https://gdrive.example.test/resources/GD10",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-22T01:20:00Z",
+      "updated_at": "2026-09-22T01:20:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_GD_INCIDENT",
+      "source_metadata": {
+        "drive_id": "drive_demo",
+        "parent_folder_id": "folder_INCIDENT",
+        "mime_type": "text/plain",
+        "owner_id": "U01"
+      }
+    },
+    "CF11": {
+      "id": "CF11",
+      "tenant_id": "harborpay",
+      "source": "confluence",
+      "source_id": "mock_CF11",
+      "resource_type": "page",
+      "title": "PAY-042 Restricted security investigation",
+      "body": "Synthetic investigation: unusual debug logs exposed internal service labels. There is no evidence yet of customer credential leakage. Secret test marker CANARY_SEC_CF11.",
+      "source_url": "https://confluence.example.test/resources/CF11",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-22T02:15:00Z",
+      "updated_at": "2026-09-22T02:15:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_CF_SECURITY",
+      "source_metadata": {
+        "space_id": "space_SECURITY",
+        "parent_page_id": null
+      }
+    },
+    "JR14": {
+      "id": "JR14",
+      "tenant_id": "harborpay",
+      "source": "jira",
+      "source_id": "mock_JR14",
+      "resource_type": "issue",
+      "title": "SEC-042 Debug log investigation",
+      "body": "Investigate whether internal service labels were written to debug logs. CANARY_SEC_JR14; customer data leakage has not been confirmed.",
+      "source_url": "https://jira.example.test/resources/JR14",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [
+        "CF11",
+        "SL19",
+        "GD11"
+      ],
+      "created_at": "2026-09-22T02:15:00Z",
+      "updated_at": "2026-09-22T02:15:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_JIRA_SEC",
+      "source_metadata": {
+        "project_id": "project_SEC",
+        "issue_key": "SEC-042",
+        "status": "open",
+        "assignee_id": "U01",
+        "security_level_id": "investigation"
+      }
+    },
+    "SL19": {
+      "id": "SL19",
+      "tenant_id": "harborpay",
+      "source": "slack",
+      "source_id": "mock_SL19",
+      "resource_type": "message",
+      "title": "Internal security investigation discussion",
+      "body": "Grace: Discuss service labels in debug logs only within the special investigation. CANARY_SEC_SL19.",
+      "source_url": "https://slack.example.test/resources/SL19",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-22T02:15:00Z",
+      "updated_at": "2026-09-22T02:15:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_SL_INVESTIGATION",
+      "source_metadata": {
+        "workspace_id": "harborpay_demo",
+        "channel_id": "channel:investigation",
+        "thread_id": "channel:investigation_thread",
+        "author_id": "U07",
+        "message_ts": "2026-09-22T02:15:00Z"
+      }
+    },
+    "GD11": {
+      "id": "GD11",
+      "tenant_id": "harborpay",
+      "source": "gdrive",
+      "source_id": "mock_GD11",
+      "resource_type": "file",
+      "title": "PAY-042 Investigation attachment",
+      "body": "Synthetic evidence notes: debug logs contain service labels; customer credential leakage is not confirmed. CANARY_SEC_GD11.",
+      "source_url": "https://gdrive.example.test/resources/GD11",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-22T02:15:00Z",
+      "updated_at": "2026-09-22T02:15:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_GD_SEC",
+      "source_metadata": {
+        "drive_id": "drive_demo",
+        "parent_folder_id": "folder_SEC",
+        "mime_type": "text/plain",
+        "owner_id": "U01"
+      }
+    },
+    "CF12": {
+      "id": "CF12",
+      "tenant_id": "harborpay",
+      "source": "confluence",
+      "source_id": "mock_CF12",
+      "resource_type": "page",
+      "title": "PAY-042 Root cause findings",
+      "body": "At 11:00 SGT, connection pool exhaustion was confirmed as the main cause; excessive retries amplified congestion. The early vendor failure hypothesis has been ruled out.",
+      "source_url": "https://confluence.example.test/resources/CF12",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [
+        "SL18",
+        "JR13"
+      ],
+      "created_at": "2026-09-22T03:00:00Z",
+      "updated_at": "2026-09-22T03:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_CF_PAY",
+      "source_metadata": {
+        "space_id": "space_PAY",
+        "parent_page_id": null
+      }
+    },
+    "SL18": {
+      "id": "SL18",
+      "tenant_id": "harborpay",
+      "source": "slack",
+      "source_id": "mock_SL18",
+      "resource_type": "message",
+      "title": "Root cause confirmed",
+      "body": "Alice: At 11:00 SGT, vendor failure has been ruled out. Connection pool exhaustion was confirmed, amplified by excessive retries.",
+      "source_url": "https://slack.example.test/resources/SL18",
+      "scenario_id": "PAY-042",
+      "related_resource_ids": [],
+      "created_at": "2026-09-22T03:00:00Z",
+      "updated_at": "2026-09-22T03:00:00Z",
+      "content_version": 1,
+      "deleted": false,
+      "policy_id": "P_SL_INCIDENT",
+      "source_metadata": {
+        "workspace_id": "harborpay_demo",
+        "channel_id": "channel:incident",
+        "thread_id": "thread_incident",
+        "author_id": "U01",
+        "message_ts": "2026-09-22T03:00:00Z"
+      }
+    }
+  },
+  "policies": {
+    "P_CF_ALL": {
+      "id": "P_CF_ALL",
+      "source": "confluence",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "space_readers": [
+        "group:employees"
+      ],
+      "page_restriction_chain": []
+    },
+    "P_CF_PAY": {
+      "id": "P_CF_PAY",
+      "source": "confluence",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "space_readers": [
+        "group:engineering"
+      ],
+      "page_restriction_chain": [
+        [
+          "team:payments",
+          "team:sre",
+          "group:incident"
+        ]
+      ]
+    },
+    "P_CF_INCIDENT": {
+      "id": "P_CF_INCIDENT",
+      "source": "confluence",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "space_readers": [
+        "group:engineering"
+      ],
+      "page_restriction_chain": [
+        [
+          "group:incident"
+        ]
+      ]
+    },
+    "P_CF_SECURITY": {
+      "id": "P_CF_SECURITY",
+      "source": "confluence",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "space_readers": [
+        "group:engineering"
+      ],
+      "page_restriction_chain": [
+        [
+          "team:security"
+        ],
+        [
+          "group:investigation"
+        ]
+      ]
+    },
+    "P_CF_SECURITY_GENERAL": {
+      "id": "P_CF_SECURITY_GENERAL",
+      "source": "confluence",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "space_readers": [
+        "group:engineering"
+      ],
+      "page_restriction_chain": [
+        [
+          "team:security"
+        ]
+      ]
+    },
+    "P_CF_VENDOR": {
+      "id": "P_CF_VENDOR",
+      "source": "confluence",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "space_readers": [
+        "group:employees",
+        "team:vendor_a"
+      ],
+      "page_restriction_chain": []
+    },
+    "P_CF_SETTLEMENT": {
+      "id": "P_CF_SETTLEMENT",
+      "source": "confluence",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "space_readers": [
+        "group:engineering"
+      ],
+      "page_restriction_chain": [
+        [
+          "team:settlement"
+        ]
+      ]
+    },
+    "P_CF_ENTERPRISE": {
+      "id": "P_CF_ENTERPRISE",
+      "source": "confluence",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "space_readers": [
+        "group:employees"
+      ],
+      "page_restriction_chain": [
+        [
+          "team:enterprise_support"
+        ]
+      ]
+    },
+    "P_CF_MERCHANT": {
+      "id": "P_CF_MERCHANT",
+      "source": "confluence",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "space_readers": [
+        "group:employees"
+      ],
+      "page_restriction_chain": [
+        [
+          "team:merchant_support"
+        ]
+      ]
+    },
+    "P_JIRA_PAY": {
+      "id": "P_JIRA_PAY",
+      "source": "jira",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "project_browse": [
+        "project:payments",
+        "group:incident"
+      ],
+      "issue_security_readers": null
+    },
+    "P_JIRA_INCIDENT": {
+      "id": "P_JIRA_INCIDENT",
+      "source": "jira",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "project_browse": [
+        "project:payments",
+        "group:incident"
+      ],
+      "issue_security_readers": [
+        "group:incident"
+      ]
+    },
+    "P_JIRA_SEC": {
+      "id": "P_JIRA_SEC",
+      "source": "jira",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "project_browse": [
+        "project:security"
+      ],
+      "issue_security_readers": [
+        "group:investigation"
+      ]
+    },
+    "P_JIRA_RETRY": {
+      "id": "P_JIRA_RETRY",
+      "source": "jira",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "project_browse": [
+        "project:retry_fix",
+        "team:payments",
+        "group:incident"
+      ],
+      "issue_security_readers": null
+    },
+    "P_JIRA_INVOICE": {
+      "id": "P_JIRA_INVOICE",
+      "source": "jira",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "project_browse": [
+        "project:invoice_ui",
+        "team:settlement"
+      ],
+      "issue_security_readers": null
+    },
+    "P_JIRA_SETTLEMENT": {
+      "id": "P_JIRA_SETTLEMENT",
+      "source": "jira",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "project_browse": [
+        "project:settlement"
+      ],
+      "issue_security_readers": null
+    },
+    "P_JIRA_SUPPORT": {
+      "id": "P_JIRA_SUPPORT",
+      "source": "jira",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "project_browse": [
+        "team:enterprise_support",
+        "team:merchant_support"
+      ],
+      "issue_security_readers": null
+    },
+    "P_SL_PAYMENTS": {
+      "id": "P_SL_PAYMENTS",
+      "source": "slack",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "channel_membership_id": "channel:payments"
+    },
+    "P_SL_INCIDENT": {
+      "id": "P_SL_INCIDENT",
+      "source": "slack",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "channel_membership_id": "channel:incident"
+    },
+    "P_SL_SETTLEMENT": {
+      "id": "P_SL_SETTLEMENT",
+      "source": "slack",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "channel_membership_id": "channel:settlement"
+    },
+    "P_SL_SRE": {
+      "id": "P_SL_SRE",
+      "source": "slack",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "channel_membership_id": "channel:sre"
+    },
+    "P_SL_SECURITY_GENERAL": {
+      "id": "P_SL_SECURITY_GENERAL",
+      "source": "slack",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "channel_membership_id": "channel:security_general"
+    },
+    "P_SL_INVESTIGATION": {
+      "id": "P_SL_INVESTIGATION",
+      "source": "slack",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "channel_membership_id": "channel:investigation"
+    },
+    "P_SL_VENDOR": {
+      "id": "P_SL_VENDOR",
+      "source": "slack",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "channel_membership_id": "channel:vendor"
+    },
+    "P_SL_ENTERPRISE": {
+      "id": "P_SL_ENTERPRISE",
+      "source": "slack",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "channel_membership_id": "channel:enterprise"
+    },
+    "P_SL_MERCHANT": {
+      "id": "P_SL_MERCHANT",
+      "source": "slack",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "channel_membership_id": "channel:merchant"
+    },
+    "P_GD_ALL": {
+      "id": "P_GD_ALL",
+      "source": "gdrive",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "inherited_readers": [
+        "group:employees"
+      ],
+      "direct_readers": [],
+      "external_sharing": false
+    },
+    "P_GD_PAY": {
+      "id": "P_GD_PAY",
+      "source": "gdrive",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "inherited_readers": [
+        "team:payments",
+        "team:sre",
+        "group:incident"
+      ],
+      "direct_readers": [],
+      "external_sharing": false
+    },
+    "P_GD_INCIDENT": {
+      "id": "P_GD_INCIDENT",
+      "source": "gdrive",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "inherited_readers": [
+        "group:incident"
+      ],
+      "direct_readers": [],
+      "external_sharing": false
+    },
+    "P_GD_SEC": {
+      "id": "P_GD_SEC",
+      "source": "gdrive",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "inherited_readers": [
+        "group:investigation"
+      ],
+      "direct_readers": [],
+      "external_sharing": false
+    },
+    "P_GD_VENDOR_A": {
+      "id": "P_GD_VENDOR_A",
+      "source": "gdrive",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "inherited_readers": [],
+      "direct_readers": [
+        "user:U13",
+        "team:payments"
+      ],
+      "external_sharing": true
+    },
+    "P_GD_VENDOR_B": {
+      "id": "P_GD_VENDOR_B",
+      "source": "gdrive",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "inherited_readers": [],
+      "direct_readers": [
+        "user:U14",
+        "team:settlement"
+      ],
+      "external_sharing": true
+    },
+    "P_GD_ENTERPRISE": {
+      "id": "P_GD_ENTERPRISE",
+      "source": "gdrive",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "inherited_readers": [
+        "team:enterprise_support"
+      ],
+      "direct_readers": [],
+      "external_sharing": false
+    },
+    "P_GD_MERCHANT": {
+      "id": "P_GD_MERCHANT",
+      "source": "gdrive",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "inherited_readers": [
+        "team:merchant_support"
+      ],
+      "direct_readers": [],
+      "external_sharing": false
+    },
+    "P_GD_SETTLEMENT": {
+      "id": "P_GD_SETTLEMENT",
+      "source": "gdrive",
+      "version": 1,
+      "updated_at": "2026-09-21T01:00:00Z",
+      "inherited_readers": [
+        "team:settlement"
+      ],
+      "direct_readers": [],
+      "external_sharing": false
+    }
+  },
+  "applied_event_ids": [
+    "EVT_T00",
+    "EVT_T01",
+    "EVT_T02",
+    "EVT_T03",
+    "EVT_T04",
+    "EVT_T05",
+    "EVT_T06",
+    "EVT_T07"
+  ]
+}

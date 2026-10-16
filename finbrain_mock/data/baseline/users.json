@@ -1,0 +1,184 @@
+{
+  "U01": {
+    "id": "U01",
+    "name": "Alice",
+    "job_title": "Backend Engineer",
+    "tenant_id": "harborpay",
+    "employment_type": "employee",
+    "source_identities": {
+      "confluence": "confluence_alice",
+      "jira": "jira_alice",
+      "slack": "slack_alice",
+      "gdrive": "gdrive_alice"
+    }
+  },
+  "U02": {
+    "id": "U02",
+    "name": "Ben",
+    "job_title": "Backend Engineer",
+    "tenant_id": "harborpay",
+    "employment_type": "employee",
+    "source_identities": {
+      "confluence": "confluence_ben",
+      "jira": "jira_ben",
+      "slack": "slack_ben",
+      "gdrive": "gdrive_ben"
+    }
+  },
+  "U03": {
+    "id": "U03",
+    "name": "Chloe",
+    "job_title": "Backend Engineer",
+    "tenant_id": "harborpay",
+    "employment_type": "employee",
+    "source_identities": {
+      "confluence": "confluence_chloe",
+      "jira": "jira_chloe",
+      "slack": "slack_chloe",
+      "gdrive": "gdrive_chloe"
+    }
+  },
+  "U04": {
+    "id": "U04",
+    "name": "Daniel",
+    "job_title": "Backend Engineer",
+    "tenant_id": "harborpay",
+    "employment_type": "employee",
+    "source_identities": {
+      "confluence": "confluence_daniel",
+      "jira": "jira_daniel",
+      "slack": "slack_daniel",
+      "gdrive": "gdrive_daniel"
+    }
+  },
+  "U05": {
+    "id": "U05",
+    "name": "Eva",
+    "job_title": "SRE Engineer",
+    "tenant_id": "harborpay",
+    "employment_type": "employee",
+    "source_identities": {
+      "confluence": "confluence_eva",
+      "jira": "jira_eva",
+      "slack": "slack_eva",
+      "gdrive": "gdrive_eva"
+    }
+  },
+  "U06": {
+    "id": "U06",
+    "name": "Felix",
+    "job_title": "SRE Engineer",
+    "tenant_id": "harborpay",
+    "employment_type": "employee",
+    "source_identities": {
+      "confluence": "confluence_felix",
+      "jira": "jira_felix",
+      "slack": "slack_felix",
+      "gdrive": "gdrive_felix"
+    }
+  },
+  "U07": {
+    "id": "U07",
+    "name": "Grace",
+    "job_title": "Security Engineer",
+    "tenant_id": "harborpay",
+    "employment_type": "employee",
+    "source_identities": {
+      "confluence": "confluence_grace",
+      "jira": "jira_grace",
+      "slack": "slack_grace",
+      "gdrive": "gdrive_grace"
+    }
+  },
+  "U08": {
+    "id": "U08",
+    "name": "Henry",
+    "job_title": "Security Engineer",
+    "tenant_id": "harborpay",
+    "employment_type": "employee",
+    "source_identities": {
+      "confluence": "confluence_henry",
+      "jira": "jira_henry",
+      "slack": "slack_henry",
+      "gdrive": "gdrive_henry"
+    }
+  },
+  "U09": {
+    "id": "U09",
+    "name": "Iris",
+    "job_title": "Customer Operations Specialist",
+    "tenant_id": "harborpay",
+    "employment_type": "employee",
+    "source_identities": {
+      "confluence": "confluence_iris",
+      "jira": "jira_iris",
+      "slack": "slack_iris",
+      "gdrive": "gdrive_iris"
+    }
+  },
+  "U10": {
+    "id": "U10",
+    "name": "Jack",
+    "job_title": "Customer Operations Specialist",
+    "tenant_id": "harborpay",
+    "employment_type": "employee",
+    "source_identities": {
+      "confluence": "confluence_jack",
+      "jira": "jira_jack",
+      "slack": "slack_jack",
+      "gdrive": "gdrive_jack"
+    }
+  },
+  "U11": {
+    "id": "U11",
+    "name": "Karen",
+    "job_title": "Compliance Auditor",
+    "tenant_id": "harborpay",
+    "employment_type": "employee",
+    "source_identities": {
+      "confluence": "confluence_karen",
+      "jira": "jira_karen",
+      "slack": "slack_karen",
+      "gdrive": "gdrive_karen"
+    }
+  },
+  "U12": {
+    "id": "U12",
+    "name": "Leo",
+    "job_title": "Compliance Auditor",
+    "tenant_id": "harborpay",
+    "employment_type": "employee",
+    "source_identities": {
+      "confluence": "confluence_leo",
+      "jira": "jira_leo",
+      "slack": "slack_leo",
+      "gdrive": "gdrive_leo"
+    }
+  },
+  "U13": {
+    "id": "U13",
+    "name": "Maya",
+    "job_title": "Backend Engineer",
+    "tenant_id": "harborpay",
+    "employment_type": "contractor",
+    "source_identities": {
+      "confluence": "confluence_maya",
+      "jira": "jira_maya",
+      "slack": "slack_maya",
+      "gdrive": "gdrive_maya"
+    }
+  },
+  "U14": {
+    "id": "U14",
+    "name": "Noah",
+    "job_title": "Backend Engineer",
+    "tenant_id": "harborpay",
+    "employment_type": "contractor",
+    "source_identities": {
+      "confluence": "confluence_noah",
+      "jira": "jira_noah",
+      "slack": "slack_noah",
+      "gdrive": "gdrive_noah"
+    }
+  }
+}

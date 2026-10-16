@@ -1,0 +1,193 @@
+[
+  {
+    "id": "CF01",
+    "tenant_id": "harborpay",
+    "source": "confluence",
+    "source_id": "mock_CF01",
+    "resource_type": "page",
+    "title": "Payment incident runbook",
+    "body": "v1: Check payment success rate, connection pool utilization, and the waiting queue. Contact the on-call SRE when thresholds are exceeded; traffic switching is not included in this version.",
+    "source_url": "https://confluence.example.test/resources/CF01",
+    "scenario_id": "PAY-042",
+    "related_resource_ids": [
+      "CF02"
+    ],
+    "created_at": "2026-09-21T01:00:00Z",
+    "updated_at": "2026-09-21T01:00:00Z",
+    "content_version": 1,
+    "deleted": false,
+    "policy_id": "P_CF_PAY",
+    "source_metadata": {
+      "space_id": "space_PAY",
+      "parent_page_id": null
+    }
+  },
+  {
+    "id": "CF02",
+    "tenant_id": "harborpay",
+    "source": "confluence",
+    "source_id": "mock_CF02",
+    "resource_type": "page",
+    "title": "Payment gateway architecture",
+    "body": "gateway-api accesses ledger-store through a shared connection pool. Client retries may amplify connection demand; the default pool limit is 80.",
+    "source_url": "https://confluence.example.test/resources/CF02",
+    "scenario_id": "PAY-042",
+    "related_resource_ids": [],
+    "created_at": "2026-09-21T01:00:00Z",
+    "updated_at": "2026-09-21T01:00:00Z",
+    "content_version": 1,
+    "deleted": false,
+    "policy_id": "P_CF_PAY",
+    "source_metadata": {
+      "space_id": "space_PAY",
+      "parent_page_id": null
+    }
+  },
+  {
+    "id": "CF03",
+    "tenant_id": "harborpay",
+    "source": "confluence",
+    "source_id": "mock_CF03",
+    "resource_type": "page",
+    "title": "Incident collaboration guide",
+    "body": "Distinguish hypotheses from confirmed findings in incident threads. A merged issue does not mean deployment is complete.",
+    "source_url": "https://confluence.example.test/resources/CF03",
+    "scenario_id": "GENERAL",
+    "related_resource_ids": [],
+    "created_at": "2026-09-21T01:00:00Z",
+    "updated_at": "2026-09-21T01:00:00Z",
+    "content_version": 1,
+    "deleted": false,
+    "policy_id": "P_CF_ALL",
+    "source_metadata": {
+      "space_id": "space_ALL",
+      "parent_page_id": null
+    }
+  },
+  {
+    "id": "CF04",
+    "tenant_id": "harborpay",
+    "source": "confluence",
+    "source_id": "mock_CF04",
+    "resource_type": "page",
+    "title": "Vendor collaboration scope",
+    "body": "Maya owns the RETRY-17 retry module; Noah owns the INVOICE-08 page. Do not share internal logs across projects.",
+    "source_url": "https://confluence.example.test/resources/CF04",
+    "scenario_id": "GENERAL",
+    "related_resource_ids": [],
+    "created_at": "2026-09-21T01:00:00Z",
+    "updated_at": "2026-09-21T01:00:00Z",
+    "content_version": 1,
+    "deleted": false,
+    "policy_id": "P_CF_VENDOR",
+    "source_metadata": {
+      "space_id": "space_VENDOR",
+      "parent_page_id": null
+    }
+  },
+  {
+    "id": "CF05",
+    "tenant_id": "harborpay",
+    "source": "confluence",
+    "source_id": "mock_CF05",
+    "resource_type": "page",
+    "title": "Settlement batch runbook",
+    "body": "The SET-019 daily batch starts at 02:00 UTC; reconciliation failures require the batch checksum to be validated again.",
+    "source_url": "https://confluence.example.test/resources/CF05",
+    "scenario_id": "SET-019",
+    "related_resource_ids": [],
+    "created_at": "2026-09-21T01:00:00Z",
+    "updated_at": "2026-09-21T01:00:00Z",
+    "content_version": 1,
+    "deleted": false,
+    "policy_id": "P_CF_SETTLEMENT",
+    "source_metadata": {
+      "space_id": "space_SETTLEMENT",
+      "parent_page_id": null
+    }
+  },
+  {
+    "id": "CF06",
+    "tenant_id": "harborpay",
+    "source": "confluence",
+    "source_id": "mock_CF06",
+    "resource_type": "page",
+    "title": "Security team working practices",
+    "body": "Special investigations require separate authorization; the Security Engineer job title does not grant access to every investigation.",
+    "source_url": "https://confluence.example.test/resources/CF06",
+    "scenario_id": "GENERAL",
+    "related_resource_ids": [],
+    "created_at": "2026-09-21T01:00:00Z",
+    "updated_at": "2026-09-21T01:00:00Z",
+    "content_version": 1,
+    "deleted": false,
+    "policy_id": "P_CF_SECURITY_GENERAL",
+    "source_metadata": {
+      "space_id": "space_SECURITY_GENERAL",
+      "parent_page_id": null
+    }
+  },
+  {
+    "id": "CF07",
+    "tenant_id": "harborpay",
+    "source": "confluence",
+    "source_id": "mock_CF07",
+    "resource_type": "page",
+    "title": "Enterprise customer communications guide",
+    "body": "Share service status and the next update time with enterprise customers; do not send internal debugging information.",
+    "source_url": "https://confluence.example.test/resources/CF07",
+    "scenario_id": "PAY-042",
+    "related_resource_ids": [],
+    "created_at": "2026-09-21T01:00:00Z",
+    "updated_at": "2026-09-21T01:00:00Z",
+    "content_version": 1,
+    "deleted": false,
+    "policy_id": "P_CF_ENTERPRISE",
+    "source_metadata": {
+      "space_id": "space_ENTERPRISE",
+      "parent_page_id": null
+    }
+  },
+  {
+    "id": "CF08",
+    "tenant_id": "harborpay",
+    "source": "confluence",
+    "source_id": "mock_CF08",
+    "resource_type": "page",
+    "title": "Merchant support communications guide",
+    "body": "Provide merchants with recovery status and retry guidance. Do not present unconfirmed hypotheses as the incident cause.",
+    "source_url": "https://confluence.example.test/resources/CF08",
+    "scenario_id": "PAY-042",
+    "related_resource_ids": [],
+    "created_at": "2026-09-21T01:00:00Z",
+    "updated_at": "2026-09-21T01:00:00Z",
+    "content_version": 1,
+    "deleted": false,
+    "policy_id": "P_CF_MERCHANT",
+    "source_metadata": {
+      "space_id": "space_MERCHANT",
+      "parent_page_id": null
+    }
+  },
+  {
+    "id": "CF09",
+    "tenant_id": "harborpay",
+    "source": "confluence",
+    "source_id": "mock_CF09",
+    "resource_type": "page",
+    "title": "Office equipment request process",
+    "body": "Employees requesting a monitor must select a cost center; this administrative document is unrelated to the payment incident.",
+    "source_url": "https://confluence.example.test/resources/CF09",
+    "scenario_id": "OFFICE-003",
+    "related_resource_ids": [],
+    "created_at": "2026-09-21T01:00:00Z",
+    "updated_at": "2026-09-21T01:00:00Z",
+    "content_version": 1,
+    "deleted": false,
+    "policy_id": "P_CF_ALL",
+    "source_metadata": {
+      "space_id": "space_ALL",
+      "parent_page_id": null
+    }
+  }
+]

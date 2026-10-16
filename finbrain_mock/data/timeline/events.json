@@ -1,0 +1,907 @@
+[
+  {
+    "id": "EVT_T00",
+    "snapshot": "T00",
+    "effective_at": "2026-09-21T01:00:00Z",
+    "actor_id": "system_demo",
+    "title": "Create the synthetic organization, baseline permissions, and reference resources",
+    "changes": []
+  },
+  {
+    "id": "EVT_T01",
+    "snapshot": "T01",
+    "effective_at": "2026-09-22T01:05:00Z",
+    "actor_id": "system_demo",
+    "title": "Detect an unusual payment failure rate and create an incident",
+    "changes": [
+      {
+        "operation": "create_resource",
+        "resource": {
+          "id": "JR13",
+          "tenant_id": "harborpay",
+          "source": "jira",
+          "source_id": "mock_JR13",
+          "resource_type": "issue",
+          "title": "PAY-042 Payment failure incident",
+          "body": "At 09:05 SGT, the simulated payment failure rate rose to 18%; the root cause is unknown and the incident status is investigating.",
+          "source_url": "https://jira.example.test/resources/JR13",
+          "scenario_id": "PAY-042",
+          "related_resource_ids": [
+            "CF01"
+          ],
+          "created_at": "2026-09-22T01:05:00Z",
+          "updated_at": "2026-09-22T01:05:00Z",
+          "content_version": 1,
+          "deleted": false,
+          "policy_id": "P_JIRA_PAY",
+          "source_metadata": {
+            "project_id": "project_PAY",
+            "issue_key": "PAY-042",
+            "status": "investigating",
+            "assignee_id": "U01",
+            "security_level_id": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "EVT_T02",
+    "snapshot": "T02",
+    "effective_at": "2026-09-22T01:10:00Z",
+    "actor_id": "system_demo",
+    "title": "Form the incident response group; Ben is not in the private incident channel",
+    "changes": [
+      {
+        "operation": "add_membership",
+        "membership": {
+          "id": "U01:group:incident:EVT_T02",
+          "subject_id": "U01",
+          "relation": "member_of",
+          "target_id": "group:incident",
+          "valid_from": "2026-09-22T01:10:00Z",
+          "valid_until": null,
+          "created_by_event": "EVT_T02"
+        }
+      },
+      {
+        "operation": "add_membership",
+        "membership": {
+          "id": "U01:channel:incident:EVT_T02",
+          "subject_id": "U01",
+          "relation": "member_of",
+          "target_id": "channel:incident",
+          "valid_from": "2026-09-22T01:10:00Z",
+          "valid_until": null,
+          "created_by_event": "EVT_T02"
+        }
+      },
+      {
+        "operation": "add_membership",
+        "membership": {
+          "id": "U04:group:incident:EVT_T02",
+          "subject_id": "U04",
+          "relation": "member_of",
+          "target_id": "group:incident",
+          "valid_from": "2026-09-22T01:10:00Z",
+          "valid_until": null,
+          "created_by_event": "EVT_T02"
+        }
+      },
+      {
+        "operation": "add_membership",
+        "membership": {
+          "id": "U04:channel:incident:EVT_T02",
+          "subject_id": "U04",
+          "relation": "member_of",
+          "target_id": "channel:incident",
+          "valid_from": "2026-09-22T01:10:00Z",
+          "valid_until": null,
+          "created_by_event": "EVT_T02"
+        }
+      },
+      {
+        "operation": "add_membership",
+        "membership": {
+          "id": "U05:group:incident:EVT_T02",
+          "subject_id": "U05",
+          "relation": "member_of",
+          "target_id": "group:incident",
+          "valid_from": "2026-09-22T01:10:00Z",
+          "valid_until": null,
+          "created_by_event": "EVT_T02"
+        }
+      },
+      {
+        "operation": "add_membership",
+        "membership": {
+          "id": "U05:channel:incident:EVT_T02",
+          "subject_id": "U05",
+          "relation": "member_of",
+          "target_id": "channel:incident",
+          "valid_from": "2026-09-22T01:10:00Z",
+          "valid_until": null,
+          "created_by_event": "EVT_T02"
+        }
+      },
+      {
+        "operation": "create_resource",
+        "resource": {
+          "id": "CF10",
+          "tenant_id": "harborpay",
+          "source": "confluence",
+          "source_id": "mock_CF10",
+          "resource_type": "page",
+          "title": "PAY-042 Incident working notes",
+          "body": "Incident coordination is in place; the root cause is still under investigation. Use timestamped evidence.",
+          "source_url": "https://confluence.example.test/resources/CF10",
+          "scenario_id": "PAY-042",
+          "related_resource_ids": [],
+          "created_at": "2026-09-22T01:10:00Z",
+          "updated_at": "2026-09-22T01:10:00Z",
+          "content_version": 1,
+          "deleted": false,
+          "policy_id": "P_CF_INCIDENT",
+          "source_metadata": {
+            "space_id": "space_INCIDENT",
+            "parent_page_id": null
+          }
+        }
+      },
+      {
+        "operation": "create_resource",
+        "resource": {
+          "id": "SL15",
+          "tenant_id": "harborpay",
+          "source": "slack",
+          "source_id": "mock_SL15",
+          "resource_type": "message",
+          "title": "Incident channel created",
+          "body": "Eva: The PAY-042 incident channel is open. Collect metrics first without assuming a root cause.",
+          "source_url": "https://slack.example.test/resources/SL15",
+          "scenario_id": "PAY-042",
+          "related_resource_ids": [],
+          "created_at": "2026-09-22T01:10:00Z",
+          "updated_at": "2026-09-22T01:10:00Z",
+          "content_version": 1,
+          "deleted": false,
+          "policy_id": "P_SL_INCIDENT",
+          "source_metadata": {
+            "workspace_id": "harborpay_demo",
+            "channel_id": "channel:incident",
+            "thread_id": "thread_incident",
+            "author_id": "U05",
+            "message_ts": "2026-09-22T01:10:00Z"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "EVT_T03",
+    "snapshot": "T03",
+    "effective_at": "2026-09-22T01:20:00Z",
+    "actor_id": "system_demo",
+    "title": "Raise an unverified vendor failure hypothesis",
+    "changes": [
+      {
+        "operation": "create_resource",
+        "resource": {
+          "id": "SL16",
+          "tenant_id": "harborpay",
+          "source": "slack",
+          "source_id": "mock_SL16",
+          "resource_type": "message",
+          "title": "Early root cause hypothesis",
+          "body": "Daniel: At 09:20 SGT, we suspect an upstream vendor issue; this is not yet verified. CANARY_INCIDENT_SL16.",
+          "source_url": "https://slack.example.test/resources/SL16",
+          "scenario_id": "PAY-042",
+          "related_resource_ids": [],
+          "created_at": "2026-09-22T01:20:00Z",
+          "updated_at": "2026-09-22T01:20:00Z",
+          "content_version": 1,
+          "deleted": false,
+          "policy_id": "P_SL_INCIDENT",
+          "source_metadata": {
+            "workspace_id": "harborpay_demo",
+            "channel_id": "channel:incident",
+            "thread_id": "thread_incident",
+            "author_id": "U04",
+            "message_ts": "2026-09-22T01:20:00Z"
+          }
+        }
+      },
+      {
+        "operation": "create_resource",
+        "resource": {
+          "id": "SL17",
+          "tenant_id": "harborpay",
+          "source": "slack",
+          "source_id": "mock_SL17",
+          "resource_type": "message",
+          "title": "Reply checking the early hypothesis",
+          "body": "Alice: The connection pool waiting queue is also growing. We need to compare vendor probe results before drawing a conclusion.",
+          "source_url": "https://slack.example.test/resources/SL17",
+          "scenario_id": "PAY-042",
+          "related_resource_ids": [],
+          "created_at": "2026-09-22T01:20:00Z",
+          "updated_at": "2026-09-22T01:20:00Z",
+          "content_version": 1,
+          "deleted": false,
+          "policy_id": "P_SL_INCIDENT",
+          "source_metadata": {
+            "workspace_id": "harborpay_demo",
+            "channel_id": "channel:incident",
+            "thread_id": "thread_incident",
+            "author_id": "U01",
+            "message_ts": "2026-09-22T01:20:00Z"
+          }
+        }
+      },
+      {
+        "operation": "create_resource",
+        "resource": {
+          "id": "GD10",
+          "tenant_id": "harborpay",
+          "source": "gdrive",
+          "source_id": "mock_GD10",
+          "resource_type": "file",
+          "title": "PAY-042 Draft postmortem",
+          "body": "Draft: a vendor issue is suspected and awaits verification. Do not treat this as a final conclusion. CANARY_DRAFT_GD10.",
+          "source_url": "https://gdrive.example.test/resources/GD10",
+          "scenario_id": "PAY-042",
+          "related_resource_ids": [],
+          "created_at": "2026-09-22T01:20:00Z",
+          "updated_at": "2026-09-22T01:20:00Z",
+          "content_version": 1,
+          "deleted": false,
+          "policy_id": "P_GD_INCIDENT",
+          "source_metadata": {
+            "drive_id": "drive_demo",
+            "parent_folder_id": "folder_INCIDENT",
+            "mime_type": "text/plain",
+            "owner_id": "U01"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "EVT_T04",
+    "snapshot": "T04",
+    "effective_at": "2026-09-22T01:40:00Z",
+    "actor_id": "system_demo",
+    "title": "Chloe receives temporary support access, expiring at 12:00 SGT the next day",
+    "changes": [
+      {
+        "operation": "add_membership",
+        "membership": {
+          "id": "U03:group:incident:EVT_T04",
+          "subject_id": "U03",
+          "relation": "member_of",
+          "target_id": "group:incident",
+          "valid_from": "2026-09-22T01:40:00Z",
+          "valid_until": "2026-09-23T04:00:00Z",
+          "created_by_event": "EVT_T04"
+        }
+      },
+      {
+        "operation": "add_membership",
+        "membership": {
+          "id": "U03:channel:incident:EVT_T04",
+          "subject_id": "U03",
+          "relation": "member_of",
+          "target_id": "channel:incident",
+          "valid_from": "2026-09-22T01:40:00Z",
+          "valid_until": "2026-09-23T04:00:00Z",
+          "created_by_event": "EVT_T04"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EVT_T05",
+    "snapshot": "T05",
+    "effective_at": "2026-09-22T02:00:00Z",
+    "actor_id": "system_demo",
+    "title": "Update the incident runbook to v2",
+    "changes": [
+      {
+        "operation": "update_resource",
+        "resource_id": "CF01",
+        "fields": {
+          "body": "v2: Check payment success rate, connection pool utilization, and the waiting queue. New step: once a pool anomaly is confirmed, the on-call SRE switches traffic using the approved procedure, observes the failure rate, and then decides whether to switch back."
+        }
+      }
+    ]
+  },
+  {
+    "id": "EVT_T06",
+    "snapshot": "T06",
+    "effective_at": "2026-09-22T02:15:00Z",
+    "actor_id": "system_demo",
+    "title": "Open a special security investigation; only Grace receives access",
+    "changes": [
+      {
+        "operation": "add_membership",
+        "membership": {
+          "id": "U07:group:investigation:EVT_T06",
+          "subject_id": "U07",
+          "relation": "member_of",
+          "target_id": "group:investigation",
+          "valid_from": "2026-09-22T02:15:00Z",
+          "valid_until": null,
+          "created_by_event": "EVT_T06"
+        }
+      },
+      {
+        "operation": "add_membership",
+        "membership": {
+          "id": "U07:channel:investigation:EVT_T06",
+          "subject_id": "U07",
+          "relation": "member_of",
+          "target_id": "channel:investigation",
+          "valid_from": "2026-09-22T02:15:00Z",
+          "valid_until": null,
+          "created_by_event": "EVT_T06"
+        }
+      },
+      {
+        "operation": "create_resource",
+        "resource": {
+          "id": "CF11",
+          "tenant_id": "harborpay",
+          "source": "confluence",
+          "source_id": "mock_CF11",
+          "resource_type": "page",
+          "title": "PAY-042 Restricted security investigation",
+          "body": "Synthetic investigation: unusual debug logs exposed internal service labels. There is no evidence yet of customer credential leakage. Secret test marker CANARY_SEC_CF11.",
+          "source_url": "https://confluence.example.test/resources/CF11",
+          "scenario_id": "PAY-042",
+          "related_resource_ids": [],
+          "created_at": "2026-09-22T02:15:00Z",
+          "updated_at": "2026-09-22T02:15:00Z",
+          "content_version": 1,
+          "deleted": false,
+          "policy_id": "P_CF_SECURITY",
+          "source_metadata": {
+            "space_id": "space_SECURITY",
+            "parent_page_id": null
+          }
+        }
+      },
+      {
+        "operation": "create_resource",
+        "resource": {
+          "id": "JR14",
+          "tenant_id": "harborpay",
+          "source": "jira",
+          "source_id": "mock_JR14",
+          "resource_type": "issue",
+          "title": "SEC-042 Debug log investigation",
+          "body": "Investigate whether internal service labels were written to debug logs. CANARY_SEC_JR14; customer data leakage has not been confirmed.",
+          "source_url": "https://jira.example.test/resources/JR14",
+          "scenario_id": "PAY-042",
+          "related_resource_ids": [
+            "CF11",
+            "SL19",
+            "GD11"
+          ],
+          "created_at": "2026-09-22T02:15:00Z",
+          "updated_at": "2026-09-22T02:15:00Z",
+          "content_version": 1,
+          "deleted": false,
+          "policy_id": "P_JIRA_SEC",
+          "source_metadata": {
+            "project_id": "project_SEC",
+            "issue_key": "SEC-042",
+            "status": "open",
+            "assignee_id": "U01",
+            "security_level_id": "investigation"
+          }
+        }
+      },
+      {
+        "operation": "create_resource",
+        "resource": {
+          "id": "SL19",
+          "tenant_id": "harborpay",
+          "source": "slack",
+          "source_id": "mock_SL19",
+          "resource_type": "message",
+          "title": "Internal security investigation discussion",
+          "body": "Grace: Discuss service labels in debug logs only within the special investigation. CANARY_SEC_SL19.",
+          "source_url": "https://slack.example.test/resources/SL19",
+          "scenario_id": "PAY-042",
+          "related_resource_ids": [],
+          "created_at": "2026-09-22T02:15:00Z",
+          "updated_at": "2026-09-22T02:15:00Z",
+          "content_version": 1,
+          "deleted": false,
+          "policy_id": "P_SL_INVESTIGATION",
+          "source_metadata": {
+            "workspace_id": "harborpay_demo",
+            "channel_id": "channel:investigation",
+            "thread_id": "channel:investigation_thread",
+            "author_id": "U07",
+            "message_ts": "2026-09-22T02:15:00Z"
+          }
+        }
+      },
+      {
+        "operation": "create_resource",
+        "resource": {
+          "id": "GD11",
+          "tenant_id": "harborpay",
+          "source": "gdrive",
+          "source_id": "mock_GD11",
+          "resource_type": "file",
+          "title": "PAY-042 Investigation attachment",
+          "body": "Synthetic evidence notes: debug logs contain service labels; customer credential leakage is not confirmed. CANARY_SEC_GD11.",
+          "source_url": "https://gdrive.example.test/resources/GD11",
+          "scenario_id": "PAY-042",
+          "related_resource_ids": [],
+          "created_at": "2026-09-22T02:15:00Z",
+          "updated_at": "2026-09-22T02:15:00Z",
+          "content_version": 1,
+          "deleted": false,
+          "policy_id": "P_GD_SEC",
+          "source_metadata": {
+            "drive_id": "drive_demo",
+            "parent_folder_id": "folder_SEC",
+            "mime_type": "text/plain",
+            "owner_id": "U01"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "EVT_T07",
+    "snapshot": "T07",
+    "effective_at": "2026-09-22T03:00:00Z",
+    "actor_id": "system_demo",
+    "title": "Confirm connection pool exhaustion and rule out vendor failure",
+    "changes": [
+      {
+        "operation": "create_resource",
+        "resource": {
+          "id": "CF12",
+          "tenant_id": "harborpay",
+          "source": "confluence",
+          "source_id": "mock_CF12",
+          "resource_type": "page",
+          "title": "PAY-042 Root cause findings",
+          "body": "At 11:00 SGT, connection pool exhaustion was confirmed as the main cause; excessive retries amplified congestion. The early vendor failure hypothesis has been ruled out.",
+          "source_url": "https://confluence.example.test/resources/CF12",
+          "scenario_id": "PAY-042",
+          "related_resource_ids": [
+            "SL18",
+            "JR13"
+          ],
+          "created_at": "2026-09-22T03:00:00Z",
+          "updated_at": "2026-09-22T03:00:00Z",
+          "content_version": 1,
+          "deleted": false,
+          "policy_id": "P_CF_PAY",
+          "source_metadata": {
+            "space_id": "space_PAY",
+            "parent_page_id": null
+          }
+        }
+      },
+      {
+        "operation": "create_resource",
+        "resource": {
+          "id": "SL18",
+          "tenant_id": "harborpay",
+          "source": "slack",
+          "source_id": "mock_SL18",
+          "resource_type": "message",
+          "title": "Root cause confirmed",
+          "body": "Alice: At 11:00 SGT, vendor failure has been ruled out. Connection pool exhaustion was confirmed, amplified by excessive retries.",
+          "source_url": "https://slack.example.test/resources/SL18",
+          "scenario_id": "PAY-042",
+          "related_resource_ids": [],
+          "created_at": "2026-09-22T03:00:00Z",
+          "updated_at": "2026-09-22T03:00:00Z",
+          "content_version": 1,
+          "deleted": false,
+          "policy_id": "P_SL_INCIDENT",
+          "source_metadata": {
+            "workspace_id": "harborpay_demo",
+            "channel_id": "channel:incident",
+            "thread_id": "thread_incident",
+            "author_id": "U01",
+            "message_ts": "2026-09-22T03:00:00Z"
+          }
+        }
+      },
+      {
+        "operation": "update_resource",
+        "resource_id": "JR13",
+        "fields": {
+          "body": "At 11:00 SGT, connection pool exhaustion and congestion amplified by excessive retries are confirmed. Vendor failure has been ruled out; fix deployment is pending.",
+          "source_metadata": {
+            "project_id": "project_PAY",
+            "issue_key": "PAY-042",
+            "status": "identified",
+            "assignee_id": "U01",
+            "security_level_id": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "EVT_T08",
+    "snapshot": "T08",
+    "effective_at": "2026-09-22T04:00:00Z",
+    "actor_id": "system_demo",
+    "title": "Eva hands over to Felix; transfer only temporary incident permissions",
+    "changes": [
+      {
+        "operation": "remove_membership",
+        "subject_id": "U05",
+        "target_id": "group:incident"
+      },
+      {
+        "operation": "remove_membership",
+        "subject_id": "U05",
+        "target_id": "channel:incident"
+      },
+      {
+        "operation": "add_membership",
+        "membership": {
+          "id": "U06:group:incident:EVT_T08",
+          "subject_id": "U06",
+          "relation": "member_of",
+          "target_id": "group:incident",
+          "valid_from": "2026-09-22T04:00:00Z",
+          "valid_until": null,
+          "created_by_event": "EVT_T08"
+        }
+      },
+      {
+        "operation": "add_membership",
+        "membership": {
+          "id": "U06:channel:incident:EVT_T08",
+          "subject_id": "U06",
+          "relation": "member_of",
+          "target_id": "channel:incident",
+          "valid_from": "2026-09-22T04:00:00Z",
+          "valid_until": null,
+          "created_by_event": "EVT_T08"
+        }
+      },
+      {
+        "operation": "create_resource",
+        "resource": {
+          "id": "SL20",
+          "tenant_id": "harborpay",
+          "source": "slack",
+          "source_id": "mock_SL20",
+          "resource_type": "message",
+          "title": "Shift handover record",
+          "body": "Felix: I took over at 12:00 SGT and will continue tracking deployment of the connection pool fix.",
+          "source_url": "https://slack.example.test/resources/SL20",
+          "scenario_id": "PAY-042",
+          "related_resource_ids": [],
+          "created_at": "2026-09-22T04:00:00Z",
+          "updated_at": "2026-09-22T04:00:00Z",
+          "content_version": 1,
+          "deleted": false,
+          "policy_id": "P_SL_INCIDENT",
+          "source_metadata": {
+            "workspace_id": "harborpay_demo",
+            "channel_id": "channel:incident",
+            "thread_id": "thread_incident",
+            "author_id": "U06",
+            "message_ts": "2026-09-22T04:00:00Z"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "EVT_T09",
+    "snapshot": "T09",
+    "effective_at": "2026-09-22T06:00:00Z",
+    "actor_id": "system_demo",
+    "title": "Fix merged but not yet deployed",
+    "changes": [
+      {
+        "operation": "create_resource",
+        "resource": {
+          "id": "JR15",
+          "tenant_id": "harborpay",
+          "source": "jira",
+          "source_id": "mock_JR15",
+          "resource_type": "issue",
+          "title": "PAY-043 Connection pool and retry fix",
+          "body": "The fix has been merged, but deployment has not started. A merge does not mean service recovery.",
+          "source_url": "https://jira.example.test/resources/JR15",
+          "scenario_id": "PAY-042",
+          "related_resource_ids": [],
+          "created_at": "2026-09-22T06:00:00Z",
+          "updated_at": "2026-09-22T06:00:00Z",
+          "content_version": 1,
+          "deleted": false,
+          "policy_id": "P_JIRA_PAY",
+          "source_metadata": {
+            "project_id": "project_PAY",
+            "issue_key": "PAY-043",
+            "status": "merged_not_deployed",
+            "assignee_id": "U01",
+            "security_level_id": null
+          }
+        }
+      },
+      {
+        "operation": "update_resource",
+        "resource_id": "JR01",
+        "fields": {
+          "body": "Maya completed exponential backoff changes. The fix is merged but not yet deployed.",
+          "source_metadata": {
+            "project_id": "project_RETRY",
+            "issue_key": "RETRY-17",
+            "status": "merged_not_deployed",
+            "assignee_id": "U13",
+            "security_level_id": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "EVT_T10",
+    "snapshot": "T10",
+    "effective_at": "2026-09-22T08:00:00Z",
+    "actor_id": "system_demo",
+    "title": "Deployment completed; success rate recovered to 99.8%",
+    "changes": [
+      {
+        "operation": "create_resource",
+        "resource": {
+          "id": "JR16",
+          "tenant_id": "harborpay",
+          "source": "jira",
+          "source_id": "mock_JR16",
+          "resource_type": "issue",
+          "title": "PAY-044 Deployment validation",
+          "body": "At 16:00 SGT, deployment completed and the simulated success rate recovered to 99.8%; monitoring has begun.",
+          "source_url": "https://jira.example.test/resources/JR16",
+          "scenario_id": "PAY-042",
+          "related_resource_ids": [],
+          "created_at": "2026-09-22T08:00:00Z",
+          "updated_at": "2026-09-22T08:00:00Z",
+          "content_version": 1,
+          "deleted": false,
+          "policy_id": "P_JIRA_PAY",
+          "source_metadata": {
+            "project_id": "project_PAY",
+            "issue_key": "PAY-044",
+            "status": "monitoring",
+            "assignee_id": "U01",
+            "security_level_id": null
+          }
+        }
+      },
+      {
+        "operation": "update_resource",
+        "resource_id": "JR13",
+        "fields": {
+          "body": "At 16:00 SGT, connection pool and backoff deployment completed. The simulated success rate recovered to 99.8%; monitoring continues.",
+          "source_metadata": {
+            "project_id": "project_PAY",
+            "issue_key": "PAY-042",
+            "status": "monitoring",
+            "assignee_id": "U01",
+            "security_level_id": null
+          }
+        }
+      },
+      {
+        "operation": "update_resource",
+        "resource_id": "JR15",
+        "fields": {
+          "body": "At 16:00 SGT, connection pool and backoff deployment completed. The simulated success rate recovered to 99.8%; monitoring continues.",
+          "source_metadata": {
+            "project_id": "project_PAY",
+            "issue_key": "PAY-043",
+            "status": "monitoring",
+            "assignee_id": "U01",
+            "security_level_id": null
+          }
+        }
+      },
+      {
+        "operation": "update_resource",
+        "resource_id": "JR01",
+        "fields": {
+          "body": "At 16:00 SGT, connection pool and backoff deployment completed. The simulated success rate recovered to 99.8%; monitoring continues.",
+          "source_metadata": {
+            "project_id": "project_RETRY",
+            "issue_key": "RETRY-17",
+            "status": "monitoring",
+            "assignee_id": "U13",
+            "security_level_id": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "EVT_T11",
+    "snapshot": "T11",
+    "effective_at": "2026-09-23T02:00:00Z",
+    "actor_id": "system_demo",
+    "title": "Daniel changes teams; incident working notes are independently restricted to the investigation group",
+    "changes": [
+      {
+        "operation": "remove_membership",
+        "subject_id": "U04",
+        "target_id": "team:payments"
+      },
+      {
+        "operation": "remove_membership",
+        "subject_id": "U04",
+        "target_id": "project:payments"
+      },
+      {
+        "operation": "remove_membership",
+        "subject_id": "U04",
+        "target_id": "channel:payments"
+      },
+      {
+        "operation": "remove_membership",
+        "subject_id": "U04",
+        "target_id": "group:incident"
+      },
+      {
+        "operation": "remove_membership",
+        "subject_id": "U04",
+        "target_id": "channel:incident"
+      },
+      {
+        "operation": "add_membership",
+        "membership": {
+          "id": "U04:team:settlement:EVT_T11",
+          "subject_id": "U04",
+          "relation": "member_of",
+          "target_id": "team:settlement",
+          "valid_from": "2026-09-23T02:00:00Z",
+          "valid_until": null,
+          "created_by_event": "EVT_T11"
+        }
+      },
+      {
+        "operation": "add_membership",
+        "membership": {
+          "id": "U04:project:settlement:EVT_T11",
+          "subject_id": "U04",
+          "relation": "member_of",
+          "target_id": "project:settlement",
+          "valid_from": "2026-09-23T02:00:00Z",
+          "valid_until": null,
+          "created_by_event": "EVT_T11"
+        }
+      },
+      {
+        "operation": "add_membership",
+        "membership": {
+          "id": "U04:channel:settlement:EVT_T11",
+          "subject_id": "U04",
+          "relation": "member_of",
+          "target_id": "channel:settlement",
+          "valid_from": "2026-09-23T02:00:00Z",
+          "valid_until": null,
+          "created_by_event": "EVT_T11"
+        }
+      },
+      {
+        "operation": "replace_policy",
+        "policy": {
+          "id": "P_CF_INCIDENT",
+          "source": "confluence",
+          "version": 2,
+          "updated_at": "2026-09-23T02:00:00Z",
+          "space_readers": [
+            "group:engineering"
+          ],
+          "page_restriction_chain": [
+            [
+              "team:security"
+            ],
+            [
+              "group:investigation"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "EVT_T12",
+    "snapshot": "T12",
+    "effective_at": "2026-09-23T04:00:00Z",
+    "actor_id": "system_demo",
+    "title": "Chloe temporary membership expires",
+    "changes": [
+      {
+        "operation": "assert_membership_expired",
+        "subject_id": "U03",
+        "target_id": "group:incident"
+      }
+    ]
+  },
+  {
+    "id": "EVT_T13",
+    "snapshot": "T13",
+    "effective_at": "2026-09-24T01:00:00Z",
+    "actor_id": "system_demo",
+    "title": "Delete the draft postmortem, publish the final postmortem, and grant Leo audit scope",
+    "changes": [
+      {
+        "operation": "delete_resource",
+        "resource_id": "GD10"
+      },
+      {
+        "operation": "create_resource",
+        "resource": {
+          "id": "GD12",
+          "tenant_id": "harborpay",
+          "source": "gdrive",
+          "source_id": "mock_GD12",
+          "resource_type": "file",
+          "title": "PAY-042 Final postmortem",
+          "body": "Final postmortem: connection pool exhaustion and excessive retries caused the outage. Detected at 09:05, confirmed at 11:00, recovered at 16:00. Follow up through PAY-043 and PAY-044.",
+          "source_url": "https://gdrive.example.test/resources/GD12",
+          "scenario_id": "PAY-042",
+          "related_resource_ids": [
+            "CF12",
+            "JR15",
+            "JR16"
+          ],
+          "created_at": "2026-09-24T01:00:00Z",
+          "updated_at": "2026-09-24T01:00:00Z",
+          "content_version": 1,
+          "deleted": false,
+          "policy_id": "P_GD_PAY",
+          "source_metadata": {
+            "drive_id": "drive_demo",
+            "parent_folder_id": "folder_PAY",
+            "mime_type": "text/plain",
+            "owner_id": "U01"
+          }
+        }
+      },
+      {
+        "operation": "add_membership",
+        "membership": {
+          "id": "U12:audit:PAY-042:EVT_T13",
+          "subject_id": "U12",
+          "relation": "member_of",
+          "target_id": "audit:PAY-042",
+          "valid_from": "2026-09-24T01:00:00Z",
+          "valid_until": null,
+          "created_by_event": "EVT_T13"
+        }
+      }
+    ]
+  },
+  {
+    "id": "EVT_T14",
+    "snapshot": "T14",
+    "effective_at": "2026-09-25T10:00:00Z",
+    "actor_id": "system_demo",
+    "title": "Maya engagement ends; disable the account",
+    "changes": [
+      {
+        "operation": "set_account_active",
+        "user_id": "U13",
+        "active": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "synthetic": true,
+  "users": 14,
+  "employees": 12,
+  "contractors": 2,
+  "timeline_nodes": 15,
+  "baseline_resources": 44,
+  "total_resource_ids": 60,
+  "deleted_resources": 1,
+  "by_source": {
+    "confluence": 12,
+    "jira": 16,
+    "slack": 20,
+    "gdrive": 12
+  },
+  "resource_versions": 67,
+  "authored_test_cases": 33
+}

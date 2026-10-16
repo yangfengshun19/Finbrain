@@ -1,0 +1,23 @@
+.venv/
+.deps/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+runtime/
+runtime-backup-*/
+change-backup-*/
+.env
+.env.*
+!.env.example
+*.key
+*.db
+*.db-wal
+*.db-shm
+*.log
+output/
+.DS_Store
+Thumbs.db
+
+# Include the prebuilt UI so reviewers do not need Node.js to run the demo.
+!finbrain/frontend/dist/

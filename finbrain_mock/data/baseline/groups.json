@@ -1,0 +1,114 @@
+{
+  "audit:PAY-042": {
+    "id": "audit:PAY-042",
+    "kind": "audit"
+  },
+  "channel:enterprise": {
+    "id": "channel:enterprise",
+    "kind": "channel"
+  },
+  "channel:incident": {
+    "id": "channel:incident",
+    "kind": "channel"
+  },
+  "channel:investigation": {
+    "id": "channel:investigation",
+    "kind": "channel"
+  },
+  "channel:merchant": {
+    "id": "channel:merchant",
+    "kind": "channel"
+  },
+  "channel:payments": {
+    "id": "channel:payments",
+    "kind": "channel"
+  },
+  "channel:security_general": {
+    "id": "channel:security_general",
+    "kind": "channel"
+  },
+  "channel:settlement": {
+    "id": "channel:settlement",
+    "kind": "channel"
+  },
+  "channel:sre": {
+    "id": "channel:sre",
+    "kind": "channel"
+  },
+  "channel:vendor": {
+    "id": "channel:vendor",
+    "kind": "channel"
+  },
+  "group:employees": {
+    "id": "group:employees",
+    "kind": "group"
+  },
+  "group:engineering": {
+    "id": "group:engineering",
+    "kind": "group"
+  },
+  "group:incident": {
+    "id": "group:incident",
+    "kind": "group"
+  },
+  "group:investigation": {
+    "id": "group:investigation",
+    "kind": "group"
+  },
+  "project:invoice_ui": {
+    "id": "project:invoice_ui",
+    "kind": "project"
+  },
+  "project:payments": {
+    "id": "project:payments",
+    "kind": "project"
+  },
+  "project:retry_fix": {
+    "id": "project:retry_fix",
+    "kind": "project"
+  },
+  "project:security": {
+    "id": "project:security",
+    "kind": "project"
+  },
+  "project:settlement": {
+    "id": "project:settlement",
+    "kind": "project"
+  },
+  "role:auditor": {
+    "id": "role:auditor",
+    "kind": "role"
+  },
+  "team:compliance": {
+    "id": "team:compliance",
+    "kind": "team"
+  },
+  "team:enterprise_support": {
+    "id": "team:enterprise_support",
+    "kind": "team"
+  },
+  "team:merchant_support": {
+    "id": "team:merchant_support",
+    "kind": "team"
+  },
+  "team:payments": {
+    "id": "team:payments",
+    "kind": "team"
+  },
+  "team:security": {
+    "id": "team:security",
+    "kind": "team"
+  },
+  "team:settlement": {
+    "id": "team:settlement",
+    "kind": "team"
+  },
+  "team:sre": {
+    "id": "team:sre",
+    "kind": "team"
+  },
+  "team:vendor_a": {
+    "id": "team:vendor_a",
+    "kind": "team"
+  }
+}

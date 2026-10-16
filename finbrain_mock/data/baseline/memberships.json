@@ -1,0 +1,533 @@
+[
+  {
+    "id": "U01:team:payments:EVT_T00",
+    "subject_id": "U01",
+    "relation": "member_of",
+    "target_id": "team:payments",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U01:group:employees:EVT_T00",
+    "subject_id": "U01",
+    "relation": "member_of",
+    "target_id": "group:employees",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U01:group:engineering:EVT_T00",
+    "subject_id": "U01",
+    "relation": "member_of",
+    "target_id": "group:engineering",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U01:project:payments:EVT_T00",
+    "subject_id": "U01",
+    "relation": "member_of",
+    "target_id": "project:payments",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U01:channel:payments:EVT_T00",
+    "subject_id": "U01",
+    "relation": "member_of",
+    "target_id": "channel:payments",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U02:team:payments:EVT_T00",
+    "subject_id": "U02",
+    "relation": "member_of",
+    "target_id": "team:payments",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U02:group:employees:EVT_T00",
+    "subject_id": "U02",
+    "relation": "member_of",
+    "target_id": "group:employees",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U02:group:engineering:EVT_T00",
+    "subject_id": "U02",
+    "relation": "member_of",
+    "target_id": "group:engineering",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U02:project:payments:EVT_T00",
+    "subject_id": "U02",
+    "relation": "member_of",
+    "target_id": "project:payments",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U02:channel:payments:EVT_T00",
+    "subject_id": "U02",
+    "relation": "member_of",
+    "target_id": "channel:payments",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U03:team:settlement:EVT_T00",
+    "subject_id": "U03",
+    "relation": "member_of",
+    "target_id": "team:settlement",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U03:group:employees:EVT_T00",
+    "subject_id": "U03",
+    "relation": "member_of",
+    "target_id": "group:employees",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U03:group:engineering:EVT_T00",
+    "subject_id": "U03",
+    "relation": "member_of",
+    "target_id": "group:engineering",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U03:project:settlement:EVT_T00",
+    "subject_id": "U03",
+    "relation": "member_of",
+    "target_id": "project:settlement",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U03:channel:settlement:EVT_T00",
+    "subject_id": "U03",
+    "relation": "member_of",
+    "target_id": "channel:settlement",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U04:team:payments:EVT_T00",
+    "subject_id": "U04",
+    "relation": "member_of",
+    "target_id": "team:payments",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U04:group:employees:EVT_T00",
+    "subject_id": "U04",
+    "relation": "member_of",
+    "target_id": "group:employees",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U04:group:engineering:EVT_T00",
+    "subject_id": "U04",
+    "relation": "member_of",
+    "target_id": "group:engineering",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U04:project:payments:EVT_T00",
+    "subject_id": "U04",
+    "relation": "member_of",
+    "target_id": "project:payments",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U04:channel:payments:EVT_T00",
+    "subject_id": "U04",
+    "relation": "member_of",
+    "target_id": "channel:payments",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U05:team:sre:EVT_T00",
+    "subject_id": "U05",
+    "relation": "member_of",
+    "target_id": "team:sre",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U05:group:employees:EVT_T00",
+    "subject_id": "U05",
+    "relation": "member_of",
+    "target_id": "group:employees",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U05:group:engineering:EVT_T00",
+    "subject_id": "U05",
+    "relation": "member_of",
+    "target_id": "group:engineering",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U05:project:payments:EVT_T00",
+    "subject_id": "U05",
+    "relation": "member_of",
+    "target_id": "project:payments",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U05:channel:sre:EVT_T00",
+    "subject_id": "U05",
+    "relation": "member_of",
+    "target_id": "channel:sre",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U06:team:sre:EVT_T00",
+    "subject_id": "U06",
+    "relation": "member_of",
+    "target_id": "team:sre",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U06:group:employees:EVT_T00",
+    "subject_id": "U06",
+    "relation": "member_of",
+    "target_id": "group:employees",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U06:group:engineering:EVT_T00",
+    "subject_id": "U06",
+    "relation": "member_of",
+    "target_id": "group:engineering",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U06:project:payments:EVT_T00",
+    "subject_id": "U06",
+    "relation": "member_of",
+    "target_id": "project:payments",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U06:channel:sre:EVT_T00",
+    "subject_id": "U06",
+    "relation": "member_of",
+    "target_id": "channel:sre",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U07:team:security:EVT_T00",
+    "subject_id": "U07",
+    "relation": "member_of",
+    "target_id": "team:security",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U07:group:employees:EVT_T00",
+    "subject_id": "U07",
+    "relation": "member_of",
+    "target_id": "group:employees",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U07:group:engineering:EVT_T00",
+    "subject_id": "U07",
+    "relation": "member_of",
+    "target_id": "group:engineering",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U07:project:security:EVT_T00",
+    "subject_id": "U07",
+    "relation": "member_of",
+    "target_id": "project:security",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U07:channel:security_general:EVT_T00",
+    "subject_id": "U07",
+    "relation": "member_of",
+    "target_id": "channel:security_general",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U08:team:security:EVT_T00",
+    "subject_id": "U08",
+    "relation": "member_of",
+    "target_id": "team:security",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U08:group:employees:EVT_T00",
+    "subject_id": "U08",
+    "relation": "member_of",
+    "target_id": "group:employees",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U08:group:engineering:EVT_T00",
+    "subject_id": "U08",
+    "relation": "member_of",
+    "target_id": "group:engineering",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U08:project:security:EVT_T00",
+    "subject_id": "U08",
+    "relation": "member_of",
+    "target_id": "project:security",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U08:channel:security_general:EVT_T00",
+    "subject_id": "U08",
+    "relation": "member_of",
+    "target_id": "channel:security_general",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U09:team:enterprise_support:EVT_T00",
+    "subject_id": "U09",
+    "relation": "member_of",
+    "target_id": "team:enterprise_support",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U09:group:employees:EVT_T00",
+    "subject_id": "U09",
+    "relation": "member_of",
+    "target_id": "group:employees",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U10:team:merchant_support:EVT_T00",
+    "subject_id": "U10",
+    "relation": "member_of",
+    "target_id": "team:merchant_support",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U10:group:employees:EVT_T00",
+    "subject_id": "U10",
+    "relation": "member_of",
+    "target_id": "group:employees",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U11:team:compliance:EVT_T00",
+    "subject_id": "U11",
+    "relation": "member_of",
+    "target_id": "team:compliance",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U11:group:employees:EVT_T00",
+    "subject_id": "U11",
+    "relation": "member_of",
+    "target_id": "group:employees",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U11:role:auditor:EVT_T00",
+    "subject_id": "U11",
+    "relation": "member_of",
+    "target_id": "role:auditor",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U11:audit:PAY-042:EVT_T00",
+    "subject_id": "U11",
+    "relation": "member_of",
+    "target_id": "audit:PAY-042",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U12:team:compliance:EVT_T00",
+    "subject_id": "U12",
+    "relation": "member_of",
+    "target_id": "team:compliance",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U12:group:employees:EVT_T00",
+    "subject_id": "U12",
+    "relation": "member_of",
+    "target_id": "group:employees",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U12:role:auditor:EVT_T00",
+    "subject_id": "U12",
+    "relation": "member_of",
+    "target_id": "role:auditor",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U13:team:vendor_a:EVT_T00",
+    "subject_id": "U13",
+    "relation": "member_of",
+    "target_id": "team:vendor_a",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U13:channel:vendor:EVT_T00",
+    "subject_id": "U13",
+    "relation": "member_of",
+    "target_id": "channel:vendor",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U13:project:retry_fix:EVT_T00",
+    "subject_id": "U13",
+    "relation": "member_of",
+    "target_id": "project:retry_fix",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U14:team:vendor_a:EVT_T00",
+    "subject_id": "U14",
+    "relation": "member_of",
+    "target_id": "team:vendor_a",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U14:channel:vendor:EVT_T00",
+    "subject_id": "U14",
+    "relation": "member_of",
+    "target_id": "channel:vendor",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U14:project:invoice_ui:EVT_T00",
+    "subject_id": "U14",
+    "relation": "member_of",
+    "target_id": "project:invoice_ui",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U09:channel:enterprise:EVT_T00",
+    "subject_id": "U09",
+    "relation": "member_of",
+    "target_id": "channel:enterprise",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  },
+  {
+    "id": "U10:channel:merchant:EVT_T00",
+    "subject_id": "U10",
+    "relation": "member_of",
+    "target_id": "channel:merchant",
+    "valid_from": "2026-09-21T01:00:00Z",
+    "valid_until": null,
+    "created_by_event": "EVT_T00"
+  }
+]
